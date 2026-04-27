@@ -70,7 +70,7 @@ const TEXTS: Record<AudienceId, React.ReactNode> = {
       I’m {"{highly_technical}"} and while (I’m ≠ engineer) I know my way /around
       &amp; can speak “fluently” with you; I built (
       <a
-        href="https://billysweeney.com/"
+        href="/"
         target="_blank"
         rel="noreferrer noopener"
         className="border-b border-foreground/30 hover:border-foreground"

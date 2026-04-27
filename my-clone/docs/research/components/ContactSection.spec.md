@@ -6,5 +6,5 @@
 - **Interaction model:** click-driven（mailto / LinkedIn）+ static
 
 ## Assets
-- 头像：`public/images/billy-sweeney-profile.jpg`
+- 头像（本人）：`public/images/zhang-liangpeng-1600.png`，legacy 页：`public/billy-legacy/assets/profile/zhang-liangpeng-1600.png`
 

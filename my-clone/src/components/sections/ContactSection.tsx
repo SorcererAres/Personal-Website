@@ -13,18 +13,18 @@ export function ContactSection({ className }: { className?: string }) {
       <div className="mt-10 grid gap-10 md:grid-cols-[1fr_340px] md:items-start">
         <div className="space-y-5">
           <div className="text-[14px] leading-5 font-semibold text-foreground">
-            No longer exploring new opportunities
+            Open to opportunities
           </div>
           <div className="text-[28px] leading-[1.05] font-semibold tracking-tight text-foreground">
-            I’ve recently joined Figma.
+            Thoughtfully considering what’s next.
           </div>
 
           <div className="mt-8 space-y-2 text-[14px] leading-5 text-foreground/65">
             <a
-              href="mailto:billy.sweeney@gmail.com"
+              href="mailto:liangpengart@163.com"
               className="block text-foreground/75 hover:text-foreground transition-colors"
             >
-              billy.sweeney@gmail.com
+              liangpengart@163.com
             </a>
             <a
               href="https://www.linkedin.com/"
@@ -39,8 +39,8 @@ export function ContactSection({ className }: { className?: string }) {
 
         <div className="overflow-hidden rounded-2xl border border-foreground/10 bg-foreground/5">
           <Image
-            src="/images/billy-sweeney-profile.jpg"
-            alt="Profile photo of Billy Sweeney"
+            src="/images/zhang-liangpeng-1600.png"
+            alt="Profile photo of Zhang Liangpeng"
             width={1600}
             height={1600}
             className="h-auto w-full"

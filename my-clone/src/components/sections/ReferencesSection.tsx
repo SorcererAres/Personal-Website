@@ -17,35 +17,35 @@ const REFERENCES: Reference[] = [
   },
   {
     quote:
-      "“Billy has an exceedingly rare blend of high craft and superb strategic and systems thinking.”",
+      "“Liangpeng has an exceedingly rare blend of high craft and superb strategic and systems thinking.”",
     name: "Seth Fields",
     title: "Senior UX Program Manager",
     href: "https://www.linkedin.com/in/seth-fields/",
   },
   {
     quote:
-      "“Billy exemplifies inspirational leadership and unwavering compassion, setting a remarkable standard for craftsmanship.”",
+      "“Liangpeng exemplifies inspirational leadership and unwavering compassion, setting a remarkable standard for craftsmanship.”",
     name: "Dionne Ong",
     title: "Product Designer",
     href: "https://www.linkedin.com/in/ong-dionne/",
   },
   {
     quote:
-      "“Billy is an incredible leader, mentor, and human—a visionary and craftsperson with care for people.”",
+      "“Liangpeng is an incredible leader, mentor, and human—a visionary and craftsperson with care for people.”",
     name: "Kait Smith Lowden",
     title: "Director of Product Design",
     href: "https://www.linkedin.com/in/kaitsmithlowden/",
   },
   {
     quote:
-      "“Billy’s attention to detail and work ethic are insanely diligent. He understands the capabilities and limitations of designing for the web in a way I’m not sure I’ve seen in many others.”",
+      "“Liangpeng’s attention to detail and work ethic are insanely diligent. He understands the capabilities and limitations of designing for the web in a way I’m not sure I’ve seen in many others.”",
     name: "Ryan Quintal",
     title: "Staff Product Designer",
     href: "https://www.linkedin.com/in/ryanq/",
   },
   {
     quote:
-      "“Billy is an incredibly thoughtful, meticulous, and craft-oriented designer who blew us away with his ability to think big picture and come up with creative solutions on the spot.”",
+      "“Liangpeng is an incredibly thoughtful, meticulous, and craft-oriented designer who blew us away with his ability to think big picture and come up with creative solutions on the spot.”",
     name: "Bec Lai",
     title: "Staff Product Designer",
     href: "https://www.linkedin.com/in/beclai/",

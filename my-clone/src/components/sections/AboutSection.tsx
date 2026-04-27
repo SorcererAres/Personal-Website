@@ -59,7 +59,7 @@ const ACCOLADES: LinkItem[] = [
   },
   {
     org: "Communication Arts",
-    line: "Webpick of the Day, 3 February 2014 — Project: BillySweeney.com",
+    line: "Webpick of the Day, 3 February 2014 — Project: Personal site",
     href: "http://www.commarts.com/webpicks/billy-sweeney",
     cta: "View Award",
   },
@@ -122,7 +122,7 @@ const PRESS: LinkItem[] = [
   },
   {
     org: "Interface Lovers",
-    line: "Billy Sweeney — 13 October 2016",
+    line: "Zhang Liangpeng — 13 October 2016",
     href: "https://interfacelovers.com/interviews/billy-sweeney",
     cta: "View Article",
   },

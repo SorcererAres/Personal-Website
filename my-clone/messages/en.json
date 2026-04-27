@@ -1,0 +1,11 @@
+{
+  "Meta": {
+    "title": "Zhang Liangpeng — Designer",
+    "description": "Personal site of Zhang Liangpeng."
+  },
+  "LocaleSwitcher": {
+    "switchToEn": "English",
+    "switchToZh": "中文",
+    "label": "Language"
+  }
+}

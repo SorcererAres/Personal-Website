@@ -314,6 +314,43 @@ body.mobile-nav--is--visible .app-header .navigation .line:nth-child(2) .content
   display: flex;
   align-items: center;
 }
+.app-aside .option.locale {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  overflow: hidden;
+}
+.app-aside .option.locale a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  color: inherit;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: opacity 0.2s ease, transform 0.15s ease;
+}
+.app-aside .option.locale a:focus-visible {
+  outline: 2px solid var(--color--foreground--100);
+  outline-offset: 2px;
+}
+.app-aside .option.locale svg {
+  display: block;
+  width: 32px;
+  height: 32px;
+}
+.app-aside .option.locale svg circle,
+.app-aside .option.locale svg path,
+.app-aside .option.locale svg ellipse {
+  fill: none;
+  stroke: var(--color--foreground--100);
+  stroke-width: 1.35;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
 .app-aside .option.theme {
   position: relative;
   transition: height 0.3s ease 0.62s;
@@ -906,4 +943,40 @@ body.page-not-found .section.intro .text {
 }
 body.page-not-found .section.intro h1 {
   padding-bottom: 0.5em;
+}
+
+/* [locale]/loading：整页跳转或 RSC 等待时的占位 */
+.locale-route-loading {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color--background--0);
+  pointer-events: none;
+}
+.locale-route-loading .sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+.locale-route-loading__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: var(--color--foreground--25);
+  animation: locale-route-loading-pulse 1s ease-in-out infinite;
+}
+@keyframes locale-route-loading-pulse {
+  50% {
+    opacity: 0.35;
+    transform: scale(0.92);
+  }
 }

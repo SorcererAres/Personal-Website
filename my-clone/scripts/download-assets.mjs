@@ -2,11 +2,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const ASSETS = [
-  // 头像
-  {
-    url: "https://billysweeney.com/assets/profile/Billy-Sweeney-1600x1600.jpg",
-    out: "public/images/billy-sweeney-profile.jpg",
-  },
+  // 头像：使用本人照片 public/images/zhang-liangpeng-1600.png（及 billy-legacy 镜像路径），不再从原站下载
   // 自托管字体（站点称作 Billy Sans，本质是 Roobert Medium）
   {
     url: "https://billysweeney.com/assets/fonts/Roobert-Medium.woff2",

@@ -9,19 +9,17 @@ export function ColophonSection({ className }: { className?: string }) {
       <div className="text-[12px] leading-5 text-foreground/55">
         Design and code by{" "}
         <a
-          href="https://billysweeney.com/"
-          target="_blank"
-          rel="noreferrer"
+          href="/"
           className="text-foreground/70 hover:text-foreground transition-colors"
         >
-          Billy Sweeney
+          Zhang Liangpeng
         </a>
         <br />
         Typeset in{" "}
         <a
           href="https://displaay.net/typeface/roobert-collection/roobert/"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer noopener"
           className="text-foreground/70 hover:text-foreground transition-colors"
         >
           Roobert Medium
@@ -30,7 +28,7 @@ export function ColophonSection({ className }: { className?: string }) {
         <a
           href="https://displaay.net/"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer noopener"
           className="text-foreground/70 hover:text-foreground transition-colors"
         >
           Displaay Type Foundry
