@@ -2,21 +2,14 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
-/* 自托管字体（站点称作 Billy Sans，其实是 Roobert Medium） */
-@font-face {
-  font-family: "Billy Sans";
-  src: url("/fonts/Roobert-Medium.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 500;
-  font-display: swap;
-}
+/* 正文字体与 legacy 一致：html 上的 --font-site-sans（layout 内 next/font） */
 
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: "Billy Sans", system-ui, sans-serif;
+  --font-sans: var(--font-site-sans), system-ui, sans-serif;
   --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
   --font-heading: var(--font-sans);
   --color-sidebar-ring: var(--sidebar-ring);
@@ -130,7 +123,7 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
-    font-feature-settings: "liga", "ss02", "ss03", "ss04", "ss06";
+    font-feature-settings: "liga", "kern";
   }
   body {
     @apply bg-background text-foreground;

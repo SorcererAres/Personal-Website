@@ -1,8 +1,8 @@
 /* Font
 ----------------------------------------------------------------------------- */
 
-/* @font-face 由 next/font/local 在 [locale]/layout.tsx 注入，
-   通过 --font-roobert CSS 变量交给 --font--family 使用。 */
+/* 字体族由 next/font/google（DM Sans）在 [locale]/layout.tsx 注入，
+   通过 --font-site-sans CSS 变量交给 --font--family 使用。 */
 
 * {
   font-family: var(--font--family);

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+import { DM_Sans } from "next/font/google";
 import { hasLocale } from "next-intl";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
@@ -11,15 +11,14 @@ import { routing } from "@/i18n/routing";
 import "@/styles/legacy/index.css";
 
 /**
- * Roobert Medium 自托管字体（站点称作 Billy Sans）。
- * 暴露 --font-roobert，由 src/styles/legacy/variables.css 的 --font--family 消费。
+ * DM Sans Medium（500）— 与 Roobert 同类的几何无衬线，SIL OFL。
+ * 暴露 --font-site-sans，由 src/styles/legacy/variables.css 的 --font--family 消费。
  */
-const roobert = localFont({
-  src: "../../../public/fonts/Roobert-Medium.woff2",
-  variable: "--font-roobert",
-  display: "swap",
+const siteSans = DM_Sans({
+  subsets: ["latin", "latin-ext"],
   weight: "500",
-  style: "normal",
+  variable: "--font-site-sans",
+  display: "swap",
 });
 
 const SITE_ORIGIN =
@@ -80,7 +79,7 @@ export default async function LocaleLayout({
   const htmlLang = locale === "zh" ? "zh-Hans" : "en";
 
   return (
-    <html lang={htmlLang} className={`${roobert.variable} h-full`}>
+    <html lang={htmlLang} className={`${siteSans.variable} h-full`}>
       <body suppressHydrationWarning>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Providers>{children}</Providers>

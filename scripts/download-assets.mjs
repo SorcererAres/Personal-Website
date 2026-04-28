@@ -3,11 +3,7 @@ import path from "node:path";
 
 const ASSETS = [
   // 头像：使用本人照片 public/images/zhang-liangpeng-1600.png，不再从原站下载
-  // 自托管字体（站点称作 Billy Sans，本质是 Roobert Medium）
-  {
-    url: "https://billysweeney.com/assets/fonts/Roobert-Medium.woff2",
-    out: "public/fonts/Roobert-Medium.woff2",
-  },
+  // 正文字体：DM Sans（next/font/google），不再从原站拉取 Roobert
   // Work 拼贴
   {
     url: "https://billysweeney.com/assets/work/Billy-Sweeney-work-collage-1440.jpg",
