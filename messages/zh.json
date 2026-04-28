@@ -35,7 +35,7 @@
     ],
     "texts": {
       "anyone": "你好，我是一名设计师，<br>用心做出能帮助人们的、<br>美丽且有意义的东西。",
-      "recruiters": "我是一名产品设计师，拥有跨越品牌与产品的 15 年经验，服务过大公司与初创团队。目前不积极寻求新机会。",
+      "recruiters": "我是一名产品设计师，拥有跨越品牌与产品的 5+ 年经验，服务过大公司与初创团队。目前我在认真考虑下一步。",
       "design-directors": "我以专业与工艺为荣，乐于指导早期职业设计师；擅长建立跨职能协作，并在复杂、模糊的环境中把事情做成。",
       "product-designers": "我是系统型思考者，对质量有很高标准。从流程到像素，我会与你协作、向你学习，一起交付让我们骄傲的成果。",
       "product-managers": "我具备端到端的产品能力：从愿景与策略，到探索与交付。我会与你紧密合作，争取最大的业务影响。",
@@ -189,7 +189,7 @@
     ],
     "colophonHeading": "版记",
     "colophonCredits": "设计与代码：<a href=\"/\">张良鹏</a>",
-    "colophonTypeface": "正文排印：<a href=\"https://fonts.google.com/specimen/DM+Sans\" target=\"_blank\">DM Sans</a>（<a href=\"https://openfontlicense.org/\" target=\"_blank\">SIL Open Font License</a>）"
+    "colophonTypeface": "正文排印：西文 <a href=\"https://fonts.google.com/specimen/DM+Sans\" target=\"_blank\">DM Sans</a>，中文 <a href=\"https://fonts.google.com/noto/specimen/Noto+Sans+SC\" target=\"_blank\">Noto Sans SC</a>（<a href=\"https://openfontlicense.org/\" target=\"_blank\">SIL OFL</a>）"
   },
   "Contact": {
     "status": "正在寻找新机会",

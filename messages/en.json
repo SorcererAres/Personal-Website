@@ -35,7 +35,7 @@
     ],
     "texts": {
       "anyone": "Hello there, I’m a <br>designer who cares <br>about making <br>beautiful things that <br>help people.",
-      "recruiters": "I’m a product designer with 15 years of experience across brand and product, at companies large and small. I’m not actively looking for a new role.",
+      "recruiters": "Product designer with 5+ years across brand and product, at companies large and small. Currently exploring what's next.",
       "design-directors": "I take pride in my craft, and love mentoring earlier career designers. I develop cross functional partnerships, and thrive in complex, ambiguous environments.",
       "product-designers": "I’m a systems thinker with a high bar for quality. From process to pixels, I’ll collaborate with you, learn from you, and help make something we’re proud of.",
       "product-managers": "I bring end-to-end product acumen, from vision and strategy to discovery and delivery. I’ll partner closely with you to generate the highest impact possible.",
@@ -189,7 +189,7 @@
     ],
     "colophonHeading": "Colophon",
     "colophonCredits": "Design and code by <a href=\"/\">Zhang Liangpeng</a>",
-    "colophonTypeface": "Typeset in <a href=\"https://fonts.google.com/specimen/DM+Sans\" target=\"_blank\">DM Sans</a> (<a href=\"https://openfontlicense.org/\" target=\"_blank\">SIL Open Font License</a>)"
+    "colophonTypeface": "Latin in <a href=\"https://fonts.google.com/specimen/DM+Sans\" target=\"_blank\">DM Sans</a>; Chinese in <a href=\"https://fonts.google.com/noto/specimen/Noto+Sans+SC\" target=\"_blank\">Noto Sans SC</a> (<a href=\"https://openfontlicense.org/\" target=\"_blank\">SIL OFL</a>)"
   },
   "Contact": {
     "status": "Open to opportunities",

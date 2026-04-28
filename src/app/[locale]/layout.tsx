@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { DM_Sans } from "next/font/google";
+import { DM_Sans, Noto_Sans_SC } from "next/font/google";
 import { hasLocale } from "next-intl";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
@@ -11,13 +11,21 @@ import { routing } from "@/i18n/routing";
 import "@/styles/legacy/index.css";
 
 /**
- * DM Sans Medium（500）— 与 Roobert 同类的几何无衬线，SIL OFL。
- * 暴露 --font-site-sans，由 src/styles/legacy/variables.css 的 --font--family 消费。
+ * 西文优先：DM Sans：Latin；缺字（如汉字）回退到 Noto Sans SC。均为 SIL OFL。
+ * --font-site-sans、--font-noto-sc 由 src/styles/legacy/variables.css 组成 --font--family。
  */
 const siteSans = DM_Sans({
   subsets: ["latin", "latin-ext"],
   weight: "500",
   variable: "--font-site-sans",
+  display: "swap",
+});
+
+/** Noto Sans SC 的 next 元数据子集不含汉字，但 Google 返回的 CSS 仍含 CJK 分片，构建时会全部拉取。 */
+const notoSansSC = Noto_Sans_SC({
+  subsets: ["latin", "latin-ext"],
+  weight: "500",
+  variable: "--font-noto-sc",
   display: "swap",
 });
 
@@ -79,7 +87,7 @@ export default async function LocaleLayout({
   const htmlLang = locale === "zh" ? "zh-Hans" : "en";
 
   return (
-    <html lang={htmlLang} className={`${siteSans.variable} h-full`}>
+    <html lang={htmlLang} className={`${siteSans.variable} ${notoSansSC.variable} h-full`}>
       <body suppressHydrationWarning>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Providers>{children}</Providers>

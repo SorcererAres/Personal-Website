@@ -4,12 +4,12 @@
 ----------------------------------------------------------------------------- */
 
 :root {
-  --font--family: var(--font-site-sans), system-ui, sans-serif;
+  --font--family: var(--font-site-sans), var(--font-noto-sc), system-ui, sans-serif;
   --font--style: normal;
   --font--weight: 500;
   --font--margin-left: -0.07em;
   --font--margin-left-opening-quote-mark: -0.406em;
-  /* DM Sans 无 Roobert 的 ss02–ss06；保留合字与字偶距 */
+  /* DM Sans / Noto Sans SC 均无 Roobert 的 ss02–ss06；保留合字与字偶距 */
   --font--feature-settings: "liga", "kern";
   --font--feature-settings-no-stylized-numeral-8: normal;
   --font--size-huge: clamp(36px, 5.14vw, 5.14vw);

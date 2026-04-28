@@ -1,8 +1,8 @@
 /* Font
 ----------------------------------------------------------------------------- */
 
-/* 字体族由 next/font/google（DM Sans）在 [locale]/layout.tsx 注入，
-   通过 --font-site-sans CSS 变量交给 --font--family 使用。 */
+/* 字体族：layout 内 next/font 注入 DM Sans（--font-site-sans）与 Noto Sans SC（--font-noto-sc），
+   西文优先、汉字回退至 Noto。 */
 
 * {
   font-family: var(--font--family);

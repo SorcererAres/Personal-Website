@@ -2,14 +2,14 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 
-/* 正文字体与 legacy 一致：html 上的 --font-site-sans（layout 内 next/font） */
+/* 正文字体：html 上的 --font-site-sans + --font-noto-sc（layout 内 next/font） */
 
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-site-sans), system-ui, sans-serif;
+  --font-sans: var(--font-site-sans), var(--font-noto-sc), system-ui, sans-serif;
   --font-mono: "Geist Mono", "Geist Mono Fallback", ui-monospace, monospace;
   --font-heading: var(--font-sans);
   --color-sidebar-ring: var(--sidebar-ring);
