@@ -1,5 +1,4 @@
-<!-- AUTO-GENERATED from AGENTS.md — do not edit directly.
-     Run `bash scripts/sync-agent-rules.sh` to regenerate. -->
+<!-- 与仓库 AGENTS.md 保持语义一致；可直接编辑本文件或只维护 AGENTS.md。 -->
 
 <!-- BEGIN:nextjs-agent-rules -->
 # This is NOT the Next.js you know
@@ -60,10 +59,8 @@ docs/
 scripts/            # Asset download scripts
 ```
 
-## MOST IMPORTANT NOTES
-- When launching Claude Code agent teams, ALWAYS have each teammate work in their own worktree branch and merge everyone's work at the end, resolving any merge conflicts smartly since you are basically serving the orchestrator role and have full context to our goals, work given, work achieved, and desired outcomes.
-- After editing `AGENTS.md`, run `bash scripts/sync-agent-rules.sh` to regenerate platform-specific instruction files.
-- After editing `.claude/skills/clone-website/SKILL.md`, run `node scripts/sync-skills.mjs` to regenerate the skill for all platforms.
+## 说明
+- 项目级代理指令以仓库根目录 **AGENTS.md** 为准；本文件为 Copilot 兼容副本，可按需精简。
 
 # Website Inspection Guide
 

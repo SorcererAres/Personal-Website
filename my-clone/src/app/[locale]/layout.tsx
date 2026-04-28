@@ -1,20 +1,26 @@
-import { readFileSync } from "node:fs";
-import path from "node:path";
-
 import type { Metadata } from "next";
+import localFont from "next/font/local";
 import { hasLocale } from "next-intl";
 import { NextIntlClientProvider } from "next-intl";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 
-import { BillyLegacyScripts } from "@/components/legacy/BillyLegacyScripts";
-import { LocaleSwitcher } from "@/components/LocaleSwitcher";
+import { Providers } from "@/components/system/Providers";
 import { routing } from "@/i18n/routing";
 
-const BODY_CLASS = readFileSync(
-  path.join(process.cwd(), "src/legacy/billy.body.class.txt"),
-  "utf8",
-).trim();
+import "@/styles/legacy/index.css";
+
+/**
+ * Roobert Medium 自托管字体（站点称作 Billy Sans）。
+ * 暴露 --font-roobert，由 src/styles/legacy/variables.css 的 --font--family 消费。
+ */
+const roobert = localFont({
+  src: "../../../public/fonts/Roobert-Medium.woff2",
+  variable: "--font-roobert",
+  display: "swap",
+  weight: "500",
+  style: "normal",
+});
 
 const SITE_ORIGIN =
   process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
@@ -38,19 +44,19 @@ export async function generateMetadata({
     title,
     description,
     icons: {
-      icon: "/billy-legacy/assets/app/favicon-32x32.png",
+      icon: "/seo/favicon-32x32.png",
     },
     openGraph: {
       title,
       description,
       type: "website",
-      images: [{ url: "/billy-legacy/assets/app/sharing-image-2400x2400.png" }],
+      images: [{ url: "/seo/sharing-image-2400x2400.png" }],
     },
     twitter: {
       title,
       description,
       card: "summary_large_image",
-      images: ["/billy-legacy/assets/app/sharing-image-2400x2400.png"],
+      images: ["/seo/sharing-image-2400x2400.png"],
     },
   };
 }
@@ -70,29 +76,15 @@ export default async function LocaleLayout({
 
   setRequestLocale(locale);
 
+  const messages = await getMessages();
   const htmlLang = locale === "zh" ? "zh-Hans" : "en";
 
   return (
-    <html lang={htmlLang} className="h-full">
-      <head>
-        <link
-          rel="stylesheet"
-          href="/billy-legacy/styles/normalize-8.0.1.css"
-        />
-        <link rel="stylesheet" href="/billy-legacy/styles/reset.css" />
-        <link rel="stylesheet" href="/billy-legacy/styles/font.css" />
-        <link rel="stylesheet" href="/billy-legacy/styles/variables.css" />
-        <link rel="stylesheet" href="/billy-legacy/styles/color.css" />
-        <link rel="stylesheet" href="/billy-legacy/styles/style.css" />
-        <link rel="stylesheet" href="/billy-legacy/styles/grid.css" />
-        <link rel="stylesheet" href="/billy-legacy/styles/media-queries.css" />
-      </head>
-      <body className={BODY_CLASS}>
-        <NextIntlClientProvider>
-          <LocaleSwitcher />
-          {children}
+    <html lang={htmlLang} className={`${roobert.variable} h-full`}>
+      <body suppressHydrationWarning>
+        <NextIntlClientProvider locale={locale} messages={messages}>
+          <Providers>{children}</Providers>
         </NextIntlClientProvider>
-        <BillyLegacyScripts />
       </body>
     </html>
   );

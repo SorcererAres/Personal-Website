@@ -7,5 +7,197 @@
     "switchToEn": "English",
     "switchToZh": "中文",
     "label": "语言"
+  },
+  "Brand": {
+    "name": "Zhang Liangpeng"
+  },
+  "Nav": {
+    "intro": "介绍",
+    "work": "作品",
+    "values": "价值观",
+    "background": "经历",
+    "references": "推荐",
+    "about": "关于",
+    "contact": "联系"
+  },
+  "Cover": {
+    "titleLine1": "张良鹏",
+    "titleLine2": "—设计师"
+  },
+  "Intro": {
+    "audiences": [
+      { "id": "anyone", "label": "面向所有人" },
+      { "id": "recruiters", "label": "招聘方" },
+      { "id": "design-directors", "label": "设计总监" },
+      { "id": "product-designers", "label": "产品设计师" },
+      { "id": "product-managers", "label": "产品经理" },
+      { "id": "engineers", "label": "工程师" }
+    ],
+    "texts": {
+      "anyone": "你好，我是一名设计师，<br>用心做出能帮助人们的、<br>美丽且有意义的东西。",
+      "recruiters": "我是一名产品设计师，拥有跨越品牌与产品的 15 年经验，服务过大公司与初创团队。目前不积极寻求新机会。",
+      "design-directors": "我以专业与工艺为荣，乐于指导早期职业设计师；擅长建立跨职能协作，并在复杂、模糊的环境中把事情做成。",
+      "product-designers": "我是系统型思考者，对质量有很高标准。从流程到像素，我会与你协作、向你学习，一起交付让我们骄傲的成果。",
+      "product-managers": "我具备端到端的产品能力：从愿景与策略，到探索与交付。我会与你紧密合作，争取最大的业务影响。",
+      "engineers": "我很「技术向」，虽说我≠工程师，但懂门道、也能和你顺畅聊实现；<span>(<a href=\"/\">this.site</a>)</span> 从零搭建，另有 <span>(<a href=\"https://ratio.haus/\" target=\"_blank\">this.one</a>)</span> 与 <span>(<a href=\"https://gibberishfactory.com/\" target=\"_blank\">this.too</a>)</span>。"
+    }
+  },
+  "Values": {
+    "lines": [
+      "设计即实用",
+      "美即追求",
+      "灵活不失锋芒",
+      "坚守才能出众"
+    ],
+    "body": "这是我的核心设计价值观，我努力把它们体现在所有作品里。我一直都在造物，并寻找改善周遭的方式；用美的方式解决真实需求，是我热爱且内化的实践。与团队协作、创造远超单打独斗的成果，会让我充满能量。我喜欢想得大、推进快，却又保持克制与整体性：长期、可持续、跨职能，既能从公司战略拉远审视，也能扎进细节。我在持续成长，并以最高标准推进执行——同时把作品连接到更大的使命：让世界比我开始时更好一点。"
+  },
+  "Background": {
+    "body": "我学习视觉传达设计，从品牌、市场与网页设计起步，逐渐深耕产品设计。依托视觉功底与用户同理心，我成长为一名全面的设计负责人：打造以人为中心的平台，并在每个触点保持一致的叙事——从愿景与策略，到品牌传播与市场，再到产品开发与令人愉悦的微交互。15 年里，我做过自由职业、甲方团队、初创与上市公司，在多语境下积累了跨学科能力。强烈的好奇心、高标准的工艺与适应性，让我能在不断变化的环境中持续产生影响力。",
+    "items": [
+      {
+        "icon": "figma",
+        "company": "Figma",
+        "role": "产品设计师",
+        "time": "现在",
+        "location": "西雅图",
+        "description": "负责设计系统相关产品。"
+      },
+      {
+        "icon": "cocoon",
+        "company": "Cocoon",
+        "role": "设计总监",
+        "time": "2023",
+        "location": "西雅图",
+        "description": "我主导并落地产品与品牌全线设计，从零组建团队，显著提升转化，并推动公司品牌重塑；我们致力于打造亲人应得的请假管理平台。"
+      },
+      {
+        "icon": "dropbox",
+        "company": "Dropbox",
+        "role": "资深产品设计师",
+        "time": "2020–2022",
+        "location": "西雅图",
+        "description": "我主导完整网页产品改版、多个从 0 到 1 的新兴产品，以及面向公司多产品战略的全局导航与信息架构。"
+      },
+      {
+        "icon": "facebook",
+        "company": "Facebook",
+        "role": "产品设计师",
+        "time": "201[numeral8]8[/numeral8]–2020",
+        "location": "西雅图",
+        "description": "我负责 Marketplace，主导浏览信息流、买家平台、车辆类目与设计系统等设计，帮助数十个团队以一致性与性能为数亿用户交付。"
+      },
+      {
+        "icon": "thread",
+        "company": "Thread",
+        "role": "设计负责人",
+        "time": "2017–201[numeral8]8[/numeral8]",
+        "location": "伦敦",
+        "description": "我受邀在全公司各条线既牵头又亲自落地设计，共同打造深度融合真人造型师与机器学习的深度个性化在线购物产品。"
+      },
+      {
+        "icon": "squarespace",
+        "company": "Squarespace",
+        "role": "设计主理",
+        "time": "2011–2017",
+        "location": "纽约 · 波特兰",
+        "description": "作为早期设计成员，我在任职期间兼跨品牌与产品多项职责，助力重新定义网络发布，并让公司成为家喻户晓的名字。"
+      },
+      {
+        "icon": "freelance",
+        "company": "Freelance",
+        "role": "设计师与总监",
+        "time": "200[numeral8]8[/numeral8]–2019",
+        "location": "纽约 · 伦敦 · 西雅图 · 波特兰 · 坦佩",
+        "description": "我曾为国家地理摄影师、奥斯卡获奖电影人与全球创业者等客户定制网站、应用与视觉识别系统。"
+      }
+    ]
+  },
+  "References": {
+    "items": [
+      {
+        "openingMark": "「",
+        "quote": "绝对是我合作过最出色的设计伙伴之一。」",
+        "person": "Grace Erickson",
+        "personHref": "https://www.linkedin.com/in/ericksongrace/",
+        "role": "市场总监"
+      },
+      {
+        "openingMark": "「",
+        "quote": "张良鹏在高超工艺与卓越战略、系统思维上的结合极为罕见。」",
+        "person": "Seth Fields",
+        "personHref": "https://www.linkedin.com/in/seth-fields/",
+        "role": "高级 UX 项目经理"
+      },
+      {
+        "openingMark": "「",
+        "quote": "张良鹏体现了鼓舞人心的领导力与始终如一的关怀，为工艺设立了难以忽视的标准。」",
+        "person": "Dionne Ong",
+        "personHref": "https://www.linkedin.com/in/ong-dionne/",
+        "role": "产品设计师"
+      },
+      {
+        "openingMark": "「",
+        "quote": "张良鹏是杰出的领导者、导师与人——既有远见，也懂工艺，且真诚关心团队。」",
+        "person": "Kait Smith Lowden",
+        "personHref": "https://www.linkedin.com/in/kaitsmithlowden/",
+        "role": "产品设计总监"
+      },
+      {
+        "openingMark": "「",
+        "quote": "张良鹏对细节与职业态度极其严谨。他对网页设计的可能性与边界的理解，我很少在其他人身上见到。」",
+        "person": "Ryan Quintal",
+        "personHref": "https://www.linkedin.com/in/ryanq/",
+        "role": "资深产品设计师"
+      },
+      {
+        "openingMark": "「",
+        "quote": "张良鹏是极其细致、讲究工艺的设计师；他既能看全局，又能当场给出创意解法，让我们印象极深。」",
+        "person": "Bec Lai",
+        "personHref": "https://www.linkedin.com/in/beclai/",
+        "role": "资深产品设计师"
+      }
+    ]
+  },
+  "About": {
+    "biography": "在品牌与产品设计领域已有 15 年经验，无论大公司还是小型团队，我都练就了既广且深的能力。我目前在 <a href=\"https://www.figma.com/\" target=\"_blank\">Figma</a> 负责设计系统相关产品；曾任 <a href=\"https://www.cocoon.com/\" target=\"_blank\">Cocoon</a> 设计总监、<a href=\"https://www.dropbox.com/\" target=\"_blank\">Dropbox</a> 资深产品设计师、<a href=\"https://www.facebook.com/\" target=\"_blank\">Facebook</a> 产品设计师、<a href=\"https://www.thread.com/\" target=\"_blank\">Thread</a> 设计负责人、<a href=\"https://www.squarespace.com/\" target=\"_blank\">Squarespace</a> 设计主理，也以自由设计师与总监身份服务过多类客户，并与众多跨学科的优秀伙伴密切合作。我接受经典设计训练，持有平面设计理学学士学位。我与妻儿生活在西雅图，尽可能多待在户外。",
+    "awardsHeading": "荣誉",
+    "awards": [
+      { "html": "<span class=\"title\">Art Directors Club (ADC)<br></span><span class=\"description\">第 93 届年度大奖，互动类，银奖，2014<br></span><span class=\"description\">项目：Squarespace.com “Create Your Own Space”<br></span><span class=\"description\"><a href=\"http://adcglobal.org/wp-content/uploads/2014/04/WinnersNightTwoFINAL.pdf\" target=\"_blank\">查看奖项</a></span>" },
+      { "html": "<span class=\"title\">The Webby Awards<br></span><span class=\"description\">第 21 届年度大奖，网络服务与应用类，2017<br></span><span class=\"description\">项目：Squarespace<br></span><span class=\"description\"><a href=\"http://webbyawards.com/winners/2017/websites/general-website/web-services-applications/squarespace/\" target=\"_blank\">查看奖项</a></span>" },
+      { "html": "<span class=\"title\">The Webby Awards<br></span><span class=\"description\">第 20 届年度大奖，网络服务与应用类，2016<br></span><span class=\"description\">项目：Squarespace<br></span><span class=\"description\"><a href=\"http://webbyawards.com/winners/2016/websites/general-website/web-services-applications/squarespace/\" target=\"_blank\">查看奖项</a></span>" },
+      { "html": "<span class=\"title\">The Webby Awards<br></span><span class=\"description\">第 1<span class=\"numeral-8\">8</span> 届年度大奖，网络服务与应用类，2014<br></span><span class=\"description\">项目：Squarespace<br></span><span class=\"description\"><a href=\"http://webbyawards.com/winners/2014/websites/general-website/web-services-applications/squarespace/\" target=\"_blank\">查看奖项</a></span>" },
+      { "html": "<span class=\"title\">The Webby Awards<br></span><span class=\"description\">第 1<span class=\"numeral-8\">8</span> 届年度大奖，最佳视觉设计—美学，2014<br></span><span class=\"description\">项目：Squarespace.com<br></span><span class=\"description\"><a href=\"http://www.webbyawards.com/winners/2014/web/website-features-and-design/best-visual-design-aesthetic/squarespace\" target=\"_blank\">查看奖项</a></span>" },
+      { "html": "<span class=\"title\">The Webby Awards<br></span><span class=\"description\">第 1<span class=\"numeral-8\">8</span> 届年度大奖，最佳首页/欢迎页，2014<br></span><span class=\"description\">项目：Squarespace.com<br></span><span class=\"description\"><a href=\"http://www.webbyawards.com/winners/2014/web/website-features-and-design/best-homewelcome-page/squarespace\" target=\"_blank\">查看奖项</a></span>" },
+      { "html": "<span class=\"title\">The Webby Awards<br></span><span class=\"description\">第 17 届年度大奖，最佳首页/欢迎页，2013<br></span><span class=\"description\">项目：Squarespace.com<br></span><span class=\"description\"><a href=\"http://winners.webbyawards.com/2013/web/website-features-and-design/best-homewelcome-page/squarespace\" target=\"_blank\">查看奖项</a></span>" },
+      { "html": "<span class=\"title\">Communication Arts<br></span><span class=\"description\">互动年鉴 20，网站／微型网站，2014<br></span><span class=\"description\">项目：Squarespace.com “Create Your Own Space”<br></span><span class=\"description\"><a href=\"http://www.commarts.com/gallery/interactive/all/all/2014/61938/1\" target=\"_blank\">查看奖项</a></span>" },
+      { "html": "<span class=\"title\">Communication Arts<br></span><span class=\"description\">当日网页精选，2014 年 2 月 3 日<br></span><span class=\"description\">项目：个人网站<br></span><span class=\"description\"><a href=\"http://www.commarts.com/webpicks/billy-sweeney\" target=\"_blank\">查看奖项</a></span>" },
+      { "html": "<span class=\"title\">AWWWARDS<br></span><span class=\"description\">当日最佳网站，2014 年 2 月 23 日<br></span><span class=\"description\">项目：Squarespace 官方博客<br></span><span class=\"description\"><a href=\"https://www.awwwards.com/sites/the-official-squarespace-blog\" target=\"_blank\">查看奖项</a></span>" },
+      { "html": "<span class=\"title\">AWWWARDS<br></span><span class=\"description\">当日最佳网站，2013 年 7 月 4 日<br></span><span class=\"description\">项目：Squarespace.com “Create Your Own Space”<br></span><span class=\"description\"><a href=\"https://www.awwwards.com/sites/squarespace-create-your-own-space\" target=\"_blank\">查看奖项</a></span>" },
+      { "html": "<span class=\"title\">AWWWARDS<br></span><span class=\"description\">当日最佳网站，2012 年 9 月 12 日<br></span><span class=\"description\">项目：Squarespace.com<br></span><span class=\"description\"><a href=\"https://www.awwwards.com/sites/squarespace\" target=\"_blank\">查看奖项</a></span>" },
+      { "html": "<span class=\"title\">Favourite Website Awards (FWA)<br></span><span class=\"description\">当日最佳网站，2013 年 8 月 5 日<br></span><span class=\"description\">项目：Squarespace.com “Create Your Own Space”<br></span><span class=\"description\"><a href=\"https://thefwa.com/cases/squarespace-create-your-own-space\" target=\"_blank\">查看奖项</a></span>" },
+      { "html": "<span class=\"title\">Site Inspire<br></span><span class=\"description\">收录网站，2016 年 4 月<br></span><span class=\"description\">项目：Squarespace Circle<br></span><span class=\"description\"><a href=\"https://www.siteinspire.com/websites/6398-circle-by-squarespace\" target=\"_blank\">查看奖项</a></span>" },
+      { "html": "<span class=\"title\">Site Inspire<br></span><span class=\"description\">收录网站，2014 年 1 月<br></span><span class=\"description\">项目：Squarespace 官方博客<br></span><span class=\"description\"><a href=\"https://www.siteinspire.com/websites/832-squarespace-blog\" target=\"_blank\">查看奖项</a></span>" },
+      { "html": "<span class=\"title\">Site Inspire<br></span><span class=\"description\">收录网站，2013 年 11 月<br></span><span class=\"description\">项目：Squarespace.com — Mobile Apps<br></span><span class=\"description\"><a href=\"https://www.siteinspire.com/websites/4128-squarespace-mobile-apps\" target=\"_blank\">查看奖项</a></span>" }
+    ],
+    "pressHeading": "报道",
+    "press": [
+      { "html": "<span class=\"title\">InVision<br></span><span class=\"description\">Inside Design：Squarespace<br></span><span class=\"description\">2017 年 1 月 23 日<br></span><span class=\"description\"><a href=\"https://www.invisionapp.com/blog/inside-design-squarespace/\" target=\"_blank\">查看文章</a></span>" },
+      { "html": "<span class=\"title\">The Dots UK<br></span><span class=\"description\">Squarespace Circle 全新品牌幕后<br></span><span class=\"description\">2016 年 11 月 1<span class=\"numeral-8\">8</span> 日<br></span><span class=\"description\"><a href=\"https://the-dots.com/projects/the-inside-scoop-on-the-new-squarespace-circle-branding-145111\" target=\"_blank\">查看文章</a></span>" },
+      { "html": "<span class=\"title\">Interface Lovers<br></span><span class=\"description\">张良鹏<br></span><span class=\"description\">2016 年 10 月 13 日<br></span><span class=\"description\"><a href=\"https://interfacelovers.com/interviews/billy-sweeney\" target=\"_blank\">查看文章</a></span>" },
+      { "html": "<span class=\"title\">HOW<br></span><span class=\"description\">曝光法则：把摄影用作自我推广工具<br></span><span class=\"description\">2016 年 9 月 19 日<br></span><span class=\"description\"><a href=\"http://www.howdesign.com/design-career/the-rules-of-exposure-leveraging-photography-as-a-self-promotion-tool/\" target=\"_blank\">查看文章</a></span>" },
+      { "html": "<span class=\"title\">Design Milk<br></span><span class=\"description\">Squarespace Circle + 品牌幕后<br></span><span class=\"description\">2016 年 8 月 29 日<br></span><span class=\"description\"><a href=\"http://design-milk.com/squarespace-circle-top-photo-shoot/\" target=\"_blank\">查看文章</a></span>" }
+    ],
+    "colophonHeading": "版记",
+    "colophonCredits": "设计与代码：<a href=\"/\">张良鹏</a>",
+    "colophonTypeface": "正文排印：<a href=\"https://displaay.net/typeface/roobert-collection/roobert/\" target=\"_blank\">Roobert Medium</a>（<a href=\"https://displaay.net/\" target=\"_blank\">Displaay Type Foundry</a>）"
+  },
+  "Contact": {
+    "status": "正在寻找新机会",
+    "interest": "我在认真考虑下一步。",
+    "email": "liangpengart@163.com",
+    "emailSubject": "Enquiry from website",
+    "linkedinLabel": "LinkedIn",
+    "linkedinUrl": "https://www.linkedin.com/in/zhangliangpeng",
+    "portraitAlt": "张良鹏 肖像照"
   }
 }

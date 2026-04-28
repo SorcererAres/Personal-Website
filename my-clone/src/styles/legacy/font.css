@@ -1,0 +1,27 @@
+/* Font
+----------------------------------------------------------------------------- */
+
+/* @font-face 由 next/font/local 在 [locale]/layout.tsx 注入，
+   通过 --font-roobert CSS 变量交给 --font--family 使用。 */
+
+* {
+  font-family: var(--font--family);
+  font-style: var(--font--style);
+  font-weight: var(--font--weight);
+  font-feature-settings: var(--font--feature-settings);
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+html {
+  font-size: var(--font--size-regular);
+  line-height: var(--font--size-regular-line-height);
+}
+
+.numeral-8 {
+  font-feature-settings: var(--font--feature-settings-no-stylized-numeral-8);
+}
+
+.opening-quote-mark {
+  margin-left: var(--font--margin-left-opening-quote-mark);
+}

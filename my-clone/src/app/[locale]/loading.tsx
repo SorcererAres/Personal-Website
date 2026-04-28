@@ -1,4 +1,4 @@
-/** 整页跳转或 RSC 尚未就绪时的轻量占位（样式：billy-legacy `.locale-route-loading`）。 */
+/** 整页跳转或 RSC 尚未就绪时的轻量占位（样式见 legacy `style.css` 中 `.locale-route-loading`）。 */
 export default function LocaleRouteLoading() {
   return (
     <div

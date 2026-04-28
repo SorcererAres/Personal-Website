@@ -1,7 +1,4 @@
-<!-- AUTO-GENERATED from .claude/skills/clone-website/SKILL.md — do not edit directly.
-     Run `node scripts/sync-skills.mjs` to regenerate. -->
-
-
+<!-- 个人站：项目约定见 AGENTS.md；克隆工作流技能见 `.codex/skills/clone-website/SKILL.md`。 -->
 # Clone Website
 
 You are about to reverse-engineer and rebuild **the target URL provided by the user** as pixel-perfect clones.

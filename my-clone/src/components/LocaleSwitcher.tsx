@@ -1,18 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
-import { createPortal } from "react-dom";
 import { useLocale, useTranslations } from "next-intl";
 
-import { getPathname, usePathname } from "@/i18n/navigation";
+import { Link, usePathname } from "@/i18n/navigation";
 
-const MOUNT_ID = "locale-switcher-mount";
-
-/**
- * Legacy 站点依赖 `$(document).ready` 一次性绑定（script.js）。
- * 若用 Next 客户端软路由切语言，DOM 会换而脚本不重新执行，导航/主题/网格等会失效。
- * 因此语言入口使用原生 <a href> 触发整页加载，保证 legacy 与首次进入一致。
- */
 function GlobeIcon() {
   return (
     <svg
@@ -31,53 +22,21 @@ function GlobeIcon() {
   );
 }
 
-/** 注入到 legacy 侧栏 `#locale-switcher-mount`。 */
+/**
+ * 语言切换：localePrefix:"always" 后无需 forcePrefix/cookie hack，
+ * 直接用 next-intl/Link 切换 locale 即可保持软路由（不整页 reload）。
+ */
 export function LocaleSwitcher() {
   const locale = useLocale();
   const pathname = usePathname();
   const t = useTranslations("LocaleSwitcher");
-  const [mount, setMount] = useState<HTMLElement | null>(null);
 
-  useEffect(() => {
-    setMount(document.getElementById(MOUNT_ID));
-  }, []);
+  const target = locale === "zh" ? "en" : "zh";
+  const label = target === "en" ? t("switchToEn") : t("switchToZh");
 
-  const targetLocale = locale === "zh" ? "en" : "zh";
-  const label = targetLocale === "en" ? t("switchToEn") : t("switchToZh");
-  /**
-   * 关键：必须 forcePrefix。
-   * 默认 locale 是 zh + `as-needed`，`getPathname({locale:'zh'})` 会生成 `/`（无前缀）；
-   * 但 next-intl 中间件用 `NEXT_LOCALE` cookie 锁定语言，
-   * 锁在 en 时再请求 `/` 仍会被 rewrite 到 `/en`，导致切不回中文。
-   * `forcePrefix` 让链接落到 `/zh` / `/en`，中间件会顺便刷新 cookie。
-   */
-  const href = getPathname({
-    href: pathname,
-    locale: targetLocale,
-    forcePrefix: true,
-  });
-
-  useEffect(() => {
-    const id = "billy-locale-prefetch";
-    let el = document.getElementById(id) as HTMLLinkElement | null;
-    if (!el) {
-      el = document.createElement("link");
-      el.id = id;
-      el.rel = "prefetch";
-      document.head.appendChild(el);
-    }
-    el.href = href;
-  }, [href]);
-
-  const control = (
-    <a href={href} title={label} aria-label={label}>
+  return (
+    <Link href={pathname} locale={target} title={label} aria-label={label}>
       <GlobeIcon />
-    </a>
+    </Link>
   );
-
-  if (mount) {
-    return createPortal(control, mount);
-  }
-
-  return null;
 }

@@ -1,0 +1,10 @@
+/* legacy 样式聚合入口：顺序与原 [locale]/layout.tsx 中 8 个 <link rel="stylesheet"> 完全一致。
+   通过 Next CSS pipeline 引入，享受 hashing/critical CSS/tree-shaking 等优化。 */
+@import "./normalize-8.0.1.css";
+@import "./reset.css";
+@import "./font.css";
+@import "./variables.css";
+@import "./color.css";
+@import "./style.css";
+@import "./grid.css";
+@import "./media-queries.css";

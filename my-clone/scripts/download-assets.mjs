@@ -2,7 +2,7 @@ import { mkdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 
 const ASSETS = [
-  // 头像：使用本人照片 public/images/zhang-liangpeng-1600.png（及 billy-legacy 镜像路径），不再从原站下载
+  // 头像：使用本人照片 public/images/zhang-liangpeng-1600.png，不再从原站下载
   // 自托管字体（站点称作 Billy Sans，本质是 Roobert Medium）
   {
     url: "https://billysweeney.com/assets/fonts/Roobert-Medium.woff2",
@@ -20,6 +20,10 @@ const ASSETS = [
   {
     url: "https://billysweeney.com/assets/work/Billy-Sweeney-work-collage-shape.svg",
     out: "public/images/work/Billy-Sweeney-work-collage-shape.svg",
+  },
+  {
+    url: "https://billysweeney.com/assets/work/Billy-Sweeney-work-collage-5760.jpg",
+    out: "public/images/work/Billy-Sweeney-work-collage-5760.jpg",
   },
   // SEO
   {

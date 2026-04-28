@@ -7,5 +7,197 @@
     "switchToEn": "English",
     "switchToZh": "中文",
     "label": "Language"
+  },
+  "Brand": {
+    "name": "Zhang Liangpeng"
+  },
+  "Nav": {
+    "intro": "Intro",
+    "work": "Work",
+    "values": "Values",
+    "background": "Background",
+    "references": "References",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "Cover": {
+    "titleLine1": "Zhang Liangpeng",
+    "titleLine2": "—Designer"
+  },
+  "Intro": {
+    "audiences": [
+      { "id": "anyone", "label": "For anyone" },
+      { "id": "recruiters", "label": "Recruiters" },
+      { "id": "design-directors", "label": "Design Directors" },
+      { "id": "product-designers", "label": "Product Designers" },
+      { "id": "product-managers", "label": "Product Managers" },
+      { "id": "engineers", "label": "Engineers" }
+    ],
+    "texts": {
+      "anyone": "Hello there, I’m a <br>designer who cares <br>about making <br>beautiful things that <br>help people.",
+      "recruiters": "I’m a product designer with 15 years of experience across brand and product, at companies large and small. I’m not actively looking for a new role.",
+      "design-directors": "I take pride in my craft, and love mentoring earlier career designers. I develop cross functional partnerships, and thrive in complex, ambiguous environments.",
+      "product-designers": "I’m a systems thinker with a high bar for quality. From process to pixels, I’ll collaborate with you, learn from you, and help make something we’re proud of.",
+      "product-managers": "I bring end-to-end product acumen, from vision and strategy to discovery and delivery. I’ll partner closely with you to generate the highest impact possible.",
+      "engineers": "I’m {highly_technical} and while (I’m ≠ engineer) I know my way /around &amp; can speak “fluently” with you; I built <span>(<a href=\"/\">this.site</a>)</span> from scratch + <span>(<a href=\"https://ratio.haus/\" target=\"_blank\">this.one</a>)</span> &amp;&amp; <span>(<a href=\"https://gibberishfactory.com/\" target=\"_blank\">this.too</a>)</span>."
+    }
+  },
+  "Values": {
+    "lines": [
+      "Design must work.",
+      "Beauty is the bar.",
+      "Flexible, never flat.",
+      "Conviction sets you apart."
+    ],
+    "body": "These are my core design values, and I strive to imbue them in all of the work I do. I’ve always been making things and inventing ways to improve my surroundings. Solving a tangible need with a beautiful solution is a practice I love and resides in my core. Collaborating with a team to create a far better outcome than otherwise possible alone gives me energy. I like thinking big, working fast, yet carefully, holistically, long-term, sustainably, cross-functionally, zooming out on company strategy, and zooming in on details. I’m always improving, growing, and executing to the highest standard possible. All while achieving a larger mission, connecting my work to something deeper, tethered to improving the world, leaving it better than when\u00a0I\u00a0began."
+  },
+  "Background": {
+    "body": "I studied visual communication design, got my start in branding, marketing, and web design, then evolved to specialize in product design. Leveraging my visual design foundation and deep user empathy, I’ve established myself as a well rounded design leader who creates human-centered platforms with cohesive throughlines at every touchpoint: from vision and strategy, to brand awareness and marketing, to product development and delightful micro interactions. Throughout my 15 years of professional experience, I’ve worked freelance, in-house, at startups, and at established public companies, developing a wide range of multi-disciplinary skills in diverse contexts. My insatiable curiosity, high craft, and adaptability, enable me to generate impact in our ever-changing\u00a0environment.",
+    "items": [
+      {
+        "icon": "figma",
+        "company": "Figma",
+        "role": "Product Designer",
+        "time": "Now",
+        "location": "Seattle",
+        "description": "Working on design systems products."
+      },
+      {
+        "icon": "cocoon",
+        "company": "Cocoon",
+        "role": "Director of Design",
+        "time": "2023",
+        "location": "Seattle",
+        "description": "I led and executed design across product and brand, built a team from the ground up, significantly increased conversion, and directed a company rebrand, as we worked to build the leave management platform our loved ones deserve."
+      },
+      {
+        "icon": "dropbox",
+        "company": "Dropbox",
+        "role": "Staff Product Designer",
+        "time": "2020–2022",
+        "location": "Seattle",
+        "description": "I led the design of a complete web product redesign, several emerging zero to one products, as well as global navigation systems and information architecture for the company’s multi-product strategy."
+      },
+      {
+        "icon": "facebook",
+        "company": "Facebook",
+        "role": "Product Designer",
+        "time": "201[numeral8]8[/numeral8]–2020",
+        "location": "Seattle",
+        "description": "I worked on Marketplace, leading design for the browse feed, buyer platform, vehicles category, and design systems, enabling dozens of teams to ship with consistency and performance to hundreds of millions of users."
+      },
+      {
+        "icon": "thread",
+        "company": "Thread",
+        "role": "Head of Design",
+        "time": "2017–201[numeral8]8[/numeral8]",
+        "location": "London",
+        "description": "I was brought on to both lead and individually execute design across all company initiatives as we built a deeply personalized online shopping product which blended a team of human stylists with machine learning."
+      },
+      {
+        "icon": "squarespace",
+        "company": "Squarespace",
+        "role": "Design Lead",
+        "time": "2011–2017",
+        "location": "New York · Portland",
+        "description": "As an early design hire, I wore many hats across brand and product design during my tenure, helping to redefine web publishing and establish the company into household name."
+      },
+      {
+        "icon": "freelance",
+        "company": "Freelance",
+        "role": "Designer and Director",
+        "time": "200[numeral8]8[/numeral8]–2019",
+        "location": "New York · London · Seattle · Portland · Tempe",
+        "description": "I’ve been commissioned to create custom websites, apps, and identity systems for select clients including National Geographic photographers, Academy award-winning film-makers, and global entrepreneurs."
+      }
+    ]
+  },
+  "References": {
+    "items": [
+      {
+        "openingMark": "“",
+        "quote": "Truly one of the best design collaborators I’ve ever worked\u00a0with.”",
+        "person": "Grace Erickson",
+        "personHref": "https://www.linkedin.com/in/ericksongrace/",
+        "role": "Director of Marketing"
+      },
+      {
+        "openingMark": "“",
+        "quote": "Liangpeng has an exceedingly rare blend of high craft and superb strategic and systems\u00a0thinking.”",
+        "person": "Seth Fields",
+        "personHref": "https://www.linkedin.com/in/seth-fields/",
+        "role": "Senior UX Program Manager"
+      },
+      {
+        "openingMark": "“",
+        "quote": "Liangpeng exemplifies inspirational leadership and unwavering compassion, setting a remarkable standard for\u00a0craftsmanship.”",
+        "person": "Dionne Ong",
+        "personHref": "https://www.linkedin.com/in/ong-dionne/",
+        "role": "Product Designer"
+      },
+      {
+        "openingMark": "“",
+        "quote": "Liangpeng is an incredible leader, mentor, and human—a visionary and craftsperson with care for\u00a0people.”",
+        "person": "Kait Smith Lowden",
+        "personHref": "https://www.linkedin.com/in/kaitsmithlowden/",
+        "role": "Director of Product Design"
+      },
+      {
+        "openingMark": "“",
+        "quote": "Liangpeng’s attention to detail and work ethic are insanely diligent. He understands the capabilities and limitations of designing for the web in a way I’m not sure I’ve seen in\u00a0many\u00a0others.”",
+        "person": "Ryan Quintal",
+        "personHref": "https://www.linkedin.com/in/ryanq/",
+        "role": "Staff Product Designer"
+      },
+      {
+        "openingMark": "“",
+        "quote": "Liangpeng is an incredibly thoughtful, meticulous, and craft-oriented designer who blew us away with his ability to think big picture and come up with creative solutions on\u00a0the\u00a0spot.”",
+        "person": "Bec Lai",
+        "personHref": "https://www.linkedin.com/in/beclai/",
+        "role": "Staff Product Designer"
+      }
+    ]
+  },
+  "About": {
+    "biography": "With 15 years of experience across brand and product design, at companies large and small, I’ve developed a skillset with breadth and depth. I’m currently working on design systems products at <a href=\"https://www.figma.com/\" target=\"_blank\">Figma</a>, was previously the Director of Design at <a href=\"https://www.cocoon.com/\" target=\"_blank\">Cocoon</a>, a Staff Product Designer at <a href=\"https://www.dropbox.com/\" target=\"_blank\">Dropbox</a>, a Product Designer at <a href=\"https://www.facebook.com/\" target=\"_blank\">Facebook</a>, the Head of Design at <a href=\"https://www.thread.com/\" target=\"_blank\">Thread</a>, a Design Lead at <a href=\"https://www.squarespace.com/\" target=\"_blank\">Squarespace</a>, a freelance designer and director commissioned by a variety of clients, and a close collaborator to many incredible people across multiple disciplines. I’m a classically trained designer, who holds a Bachelor of Science in Graphic Design. I live in Seattle with my wife and son, spending time outside as often\u00a0as\u00a0possible.",
+    "awardsHeading": "Accolades",
+    "awards": [
+      { "html": "<span class=\"title\">Art Directors Club (ADC)<br></span><span class=\"description\">93rd Annual Awards, Interactive, Silver, 2014<br></span><span class=\"description\">Project: Squarespace.com “Create Your Own Space”<br></span><span class=\"description\"><a href=\"http://adcglobal.org/wp-content/uploads/2014/04/WinnersNightTwoFINAL.pdf\" target=\"_blank\">View Award</a></span>" },
+      { "html": "<span class=\"title\">The Webby Awards<br></span><span class=\"description\">21st Annual Awards, Web Services &amp; Applications, 2017<br></span><span class=\"description\">Project: Squarespace<br></span><span class=\"description\"><a href=\"http://webbyawards.com/winners/2017/websites/general-website/web-services-applications/squarespace/\" target=\"_blank\">View Award</a></span>" },
+      { "html": "<span class=\"title\">The Webby Awards<br></span><span class=\"description\">20th Annual Awards, Web Services &amp; Applications, 2016<br></span><span class=\"description\">Project: Squarespace<br></span><span class=\"description\"><a href=\"http://webbyawards.com/winners/2016/websites/general-website/web-services-applications/squarespace/\" target=\"_blank\">View Award</a></span>" },
+      { "html": "<span class=\"title\">The Webby Awards<br></span><span class=\"description\">1<span class=\"numeral-8\">8</span>th Annual Awards, Web Services &amp; Applications, 2014<br></span><span class=\"description\">Project: Squarespace<br></span><span class=\"description\"><a href=\"http://webbyawards.com/winners/2014/websites/general-website/web-services-applications/squarespace/\" target=\"_blank\">View Award</a></span>" },
+      { "html": "<span class=\"title\">The Webby Awards<br></span><span class=\"description\">1<span class=\"numeral-8\">8</span>th Annual Awards, Best Visual Design - Aesthetic, 2014<br></span><span class=\"description\">Project: Squarespace.com<br></span><span class=\"description\"><a href=\"http://www.webbyawards.com/winners/2014/web/website-features-and-design/best-visual-design-aesthetic/squarespace\" target=\"_blank\">View Award</a></span>" },
+      { "html": "<span class=\"title\">The Webby Awards<br></span><span class=\"description\">1<span class=\"numeral-8\">8</span>th Annual Awards, Best Home/Welcome Page, 2014<br></span><span class=\"description\">Project: Squarespace.com<br></span><span class=\"description\"><a href=\"http://www.webbyawards.com/winners/2014/web/website-features-and-design/best-homewelcome-page/squarespace\" target=\"_blank\">View Award</a></span>" },
+      { "html": "<span class=\"title\">The Webby Awards<br></span><span class=\"description\">17th Annual Awards, Best Home/Welcome Page, 2013<br></span><span class=\"description\">Project: Squarespace.com<br></span><span class=\"description\"><a href=\"http://winners.webbyawards.com/2013/web/website-features-and-design/best-homewelcome-page/squarespace\" target=\"_blank\">View Award</a></span>" },
+      { "html": "<span class=\"title\">Communication Arts<br></span><span class=\"description\">Interactive Annual 20, Websites/Microsites, 2014<br></span><span class=\"description\">Project: Squarespace.com “Create Your Own Space”<br></span><span class=\"description\"><a href=\"http://www.commarts.com/gallery/interactive/all/all/2014/61938/1\" target=\"_blank\">View Award</a></span>" },
+      { "html": "<span class=\"title\">Communication Arts<br></span><span class=\"description\">Webpick of the Day, 3 February 2014<br></span><span class=\"description\">Project: Personal site<br></span><span class=\"description\"><a href=\"http://www.commarts.com/webpicks/billy-sweeney\" target=\"_blank\">View Award</a></span>" },
+      { "html": "<span class=\"title\">AWWWARDS<br></span><span class=\"description\">Site of the Day, 23 February 2014<br></span><span class=\"description\">Project: The Official Squarespace Blog<br></span><span class=\"description\"><a href=\"https://www.awwwards.com/sites/the-official-squarespace-blog\" target=\"_blank\">View Award</a></span>" },
+      { "html": "<span class=\"title\">AWWWARDS<br></span><span class=\"description\">Site of the Day, 4 July 2013<br></span><span class=\"description\">Project: Squarespace.com “Create Your Own Space”<br></span><span class=\"description\"><a href=\"https://www.awwwards.com/sites/squarespace-create-your-own-space\" target=\"_blank\">View Award</a></span>" },
+      { "html": "<span class=\"title\">AWWWARDS<br></span><span class=\"description\">Site of the Day, 12 September 2012<br></span><span class=\"description\">Project: Squarespace.com<br></span><span class=\"description\"><a href=\"https://www.awwwards.com/sites/squarespace\" target=\"_blank\">View Award</a></span>" },
+      { "html": "<span class=\"title\">Favourite Website Awards (FWA)<br></span><span class=\"description\">Site of the Day, 5 August 2013<br></span><span class=\"description\">Project: Squarespace.com “Create Your Own Space”<br></span><span class=\"description\"><a href=\"https://thefwa.com/cases/squarespace-create-your-own-space\" target=\"_blank\">View Award</a></span>" },
+      { "html": "<span class=\"title\">Site Inspire<br></span><span class=\"description\">Featured Website, April 2016<br></span><span class=\"description\">Project: Squarespace Circle<br></span><span class=\"description\"><a href=\"https://www.siteinspire.com/websites/6398-circle-by-squarespace\" target=\"_blank\">View Award</a></span>" },
+      { "html": "<span class=\"title\">Site Inspire<br></span><span class=\"description\">Featured Website, January 2014<br></span><span class=\"description\">Project: The Official Squarespace Blog<br></span><span class=\"description\"><a href=\"https://www.siteinspire.com/websites/832-squarespace-blog\" target=\"_blank\">View Award</a></span>" },
+      { "html": "<span class=\"title\">Site Inspire<br></span><span class=\"description\">Featured Website, November 2013<br></span><span class=\"description\">Project: Squarespace.com — Mobile Apps<br></span><span class=\"description\"><a href=\"https://www.siteinspire.com/websites/4128-squarespace-mobile-apps\" target=\"_blank\">View Award</a></span>" }
+    ],
+    "pressHeading": "Press",
+    "press": [
+      { "html": "<span class=\"title\">InVision<br></span><span class=\"description\">Inside Design: Squarespace<br></span><span class=\"description\">23 January 2017<br></span><span class=\"description\"><a href=\"https://www.invisionapp.com/blog/inside-design-squarespace/\" target=\"_blank\">View Article</a></span>" },
+      { "html": "<span class=\"title\">The Dots UK<br></span><span class=\"description\">The Inside Scoop on The New Squarespace Circle Branding<br></span><span class=\"description\">1<span class=\"numeral-8\">8</span> November 2016<br></span><span class=\"description\"><a href=\"https://the-dots.com/projects/the-inside-scoop-on-the-new-squarespace-circle-branding-145111\" target=\"_blank\">View Article</a></span>" },
+      { "html": "<span class=\"title\">Interface Lovers<br></span><span class=\"description\">Zhang Liangpeng<br></span><span class=\"description\">13 October 2016<br></span><span class=\"description\"><a href=\"https://interfacelovers.com/interviews/billy-sweeney\" target=\"_blank\">View Article</a></span>" },
+      { "html": "<span class=\"title\">HOW<br></span><span class=\"description\">The Rules of Exposure: Leveraging Photography As a Self-Promotion Tool<br></span><span class=\"description\">19 September 2016<br></span><span class=\"description\"><a href=\"http://www.howdesign.com/design-career/the-rules-of-exposure-leveraging-photography-as-a-self-promotion-tool/\" target=\"_blank\">View Article</a></span>" },
+      { "html": "<span class=\"title\">Design Milk<br></span><span class=\"description\">Squarespace Circle + Branding Behind-the-Scenes<br></span><span class=\"description\">29 August 2016<br></span><span class=\"description\"><a href=\"http://design-milk.com/squarespace-circle-top-photo-shoot/\" target=\"_blank\">View Article</a></span>" }
+    ],
+    "colophonHeading": "Colophon",
+    "colophonCredits": "Design and code by <a href=\"/\">Zhang Liangpeng</a>",
+    "colophonTypeface": "Typeset in <a href=\"https://displaay.net/typeface/roobert-collection/roobert/\" target=\"_blank\">Roobert Medium</a> by <a href=\"https://displaay.net/\" target=\"_blank\">Displaay Type Foundry</a>"
+  },
+  "Contact": {
+    "status": "Open to opportunities",
+    "interest": "Thoughtfully considering what’s next.",
+    "email": "liangpengart@163.com",
+    "emailSubject": "Enquiry from website",
+    "linkedinLabel": "LinkedIn",
+    "linkedinUrl": "https://www.linkedin.com/in/zhangliangpeng",
+    "portraitAlt": "Profile photo of Zhang Liangpeng"
   }
 }
