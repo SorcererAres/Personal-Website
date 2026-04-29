@@ -55,60 +55,44 @@
     "body": "I studied visual communication design, got my start in branding, marketing, and web design, then evolved to specialize in product design. Leveraging my visual design foundation and deep user empathy, I’ve established myself as a well rounded design leader who creates human-centered platforms with cohesive throughlines at every touchpoint: from vision and strategy, to brand awareness and marketing, to product development and delightful micro interactions. Throughout my 15 years of professional experience, I’ve worked freelance, in-house, at startups, and at established public companies, developing a wide range of multi-disciplinary skills in diverse contexts. My insatiable curiosity, high craft, and adaptability, enable me to generate impact in our ever-changing\u00a0environment.",
     "items": [
       {
-        "icon": "figma",
-        "company": "Figma",
-        "role": "Product Designer",
-        "time": "Now",
-        "location": "Seattle",
-        "description": "Working on design systems products."
+        "icon": "doodod",
+        "company": "Doodod",
+        "role": "AI Product Experience Designer",
+        "time": "Aug 2024 – Present",
+        "location": "Beijing",
+        "description": "I lead the architecture and experience design of three AI platforms, driving a 500% efficiency gain and 36.5% lift in user satisfaction."
       },
       {
-        "icon": "cocoon",
-        "company": "Cocoon",
-        "role": "Director of Design",
-        "time": "2023",
-        "location": "Seattle",
-        "description": "I led and executed design across product and brand, built a team from the ground up, significantly increased conversion, and directed a company rebrand, as we worked to build the leave management platform our loved ones deserve."
+        "icon": "floatingPointCloud",
+        "company": "Floating Point Cloud (PICO Vendor)",
+        "role": "Product Experience Designer",
+        "time": "Apr 2023 – Apr 2024",
+        "location": "Beijing",
+        "description": "I led end-to-end UX design for PICO VR Live, completing core experience flows."
       },
       {
-        "icon": "dropbox",
-        "company": "Dropbox",
-        "role": "Staff Product Designer",
-        "time": "2020–2022",
-        "location": "Seattle",
-        "description": "I led the design of a complete web product redesign, several emerging zero to one products, as well as global navigation systems and information architecture for the company’s multi-product strategy."
+        "icon": "veer",
+        "company": "VeeR VR",
+        "role": "UI & UX Designer",
+        "time": "Apr 2022 – May 2022",
+        "location": "Beijing",
+        "description": "I led the website redesign, shipped in 4 weeks, redefining the brand's expression."
       },
       {
-        "icon": "facebook",
-        "company": "Facebook",
-        "role": "Product Designer",
-        "time": "201[numeral8]8[/numeral8]–2020",
-        "location": "Seattle",
-        "description": "I worked on Marketplace, leading design for the browse feed, buyer platform, vehicles category, and design systems, enabling dozens of teams to ship with consistency and performance to hundreds of millions of users."
+        "icon": "tojoy",
+        "company": "TOJOY",
+        "role": "UI & UX Designer",
+        "time": "Jun 2020 – Mar 2022",
+        "location": "Beijing",
+        "description": "I led a major SaaS overhaul and built the design system, lifting the experience score from 2.5 to 3.9."
       },
       {
-        "icon": "thread",
-        "company": "Thread",
-        "role": "Head of Design",
-        "time": "2017–201[numeral8]8[/numeral8]",
-        "location": "London",
-        "description": "I was brought on to both lead and individually execute design across all company initiatives as we built a deeply personalized online shopping product which blended a team of human stylists with machine learning."
-      },
-      {
-        "icon": "squarespace",
-        "company": "Squarespace",
-        "role": "Design Lead",
-        "time": "2011–2017",
-        "location": "New York · Portland",
-        "description": "As an early design hire, I wore many hats across brand and product design during my tenure, helping to redefine web publishing and establish the company into household name."
-      },
-      {
-        "icon": "freelance",
-        "company": "Freelance",
-        "role": "Designer and Director",
-        "time": "200[numeral8]8[/numeral8]–2019",
-        "location": "New York · London · Seattle · Portland · Tempe",
-        "description": "I’ve been commissioned to create custom websites, apps, and identity systems for select clients including National Geographic photographers, Academy award-winning film-makers, and global entrepreneurs."
+        "icon": "pla",
+        "company": "PLA Northern Army",
+        "role": "Soldier",
+        "time": "Sep 2015 – Sep 2017",
+        "location": "",
+        "description": "Awarded the Brigade Commendation and Outstanding Conscript honors."
       }
     ]
   },

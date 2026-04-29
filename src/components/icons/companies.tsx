@@ -98,3 +98,78 @@ export function FreelanceIcon({ className }: IconProps) {
     </svg>
   );
 }
+
+/** 经历占位：独到科技 */
+export function DoododIcon({ className }: IconProps) {
+  return (
+    <svg
+      className={className ?? "icon doodod"}
+      xmlns="http://www.w3.org/2000/svg"
+      width="64"
+      height="64"
+      viewBox="0 0 64 64"
+    >
+      <path d="M32 10 51 21 51 43 32 54 13 43 13 21 32 10z" />
+    </svg>
+  );
+}
+
+/** 经历占位：浮点云数 */
+export function FloatingPointCloudIcon({ className }: IconProps) {
+  return (
+    <svg
+      className={className ?? "icon floating-point-cloud"}
+      xmlns="http://www.w3.org/2000/svg"
+      width="64"
+      height="64"
+      viewBox="0 0 64 64"
+    >
+      <path d="M12 44 A20 20 0 0 1 52 44 V52 H12 V44 Z" />
+    </svg>
+  );
+}
+
+/** 经历占位：VeeR */
+export function VeeRIcon({ className }: IconProps) {
+  return (
+    <svg
+      className={className ?? "icon veer"}
+      xmlns="http://www.w3.org/2000/svg"
+      width="64"
+      height="64"
+      viewBox="0 0 64 64"
+    >
+      <path d="M20 14h24l-10 38h-4L20 14z" />
+    </svg>
+  );
+}
+
+/** 经历占位：天九 */
+export function TojoyIcon({ className }: IconProps) {
+  return (
+    <svg
+      className={className ?? "icon tojoy"}
+      xmlns="http://www.w3.org/2000/svg"
+      width="64"
+      height="64"
+      viewBox="0 0 64 64"
+    >
+      <path d="M10 52V28h12v-6h8v30h14V34h12v18H10z" />
+    </svg>
+  );
+}
+
+/** 经历占位：服役 */
+export function PlaIcon({ className }: IconProps) {
+  return (
+    <svg
+      className={className ?? "icon pla"}
+      xmlns="http://www.w3.org/2000/svg"
+      width="64"
+      height="64"
+      viewBox="0 0 64 64"
+    >
+      <path d="M32 8l22 18-6 30H16l-6-30L32 8z" />
+    </svg>
+  );
+}

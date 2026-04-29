@@ -21,7 +21,10 @@ export function AppNav({ items }: { items: NavItem[] }) {
         const visible = entries
           .filter((e) => e.isIntersecting)
           .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-        if (visible?.target?.id) setActive(visible.target.id);
+        if (!visible) return;
+        // section 仅用 class（如 section intro），无 HTML id；从 classList 对齐 NavItem.id
+        const id = items.find((it) => visible.target.classList.contains(it.id))?.id;
+        if (id) setActive(id);
       },
       { rootMargin: "-30% 0px -60% 0px", threshold: [0, 0.25, 0.5, 0.75, 1] },
     );

@@ -55,60 +55,44 @@
     "body": "我学习视觉传达设计，从品牌、市场与网页设计起步，逐渐深耕产品设计。依托视觉功底与用户同理心，我成长为一名全面的设计负责人：打造以人为中心的平台，并在每个触点保持一致的叙事——从愿景与策略，到品牌传播与市场，再到产品开发与令人愉悦的微交互。15 年里，我做过自由职业、甲方团队、初创与上市公司，在多语境下积累了跨学科能力。强烈的好奇心、高标准的工艺与适应性，让我能在不断变化的环境中持续产生影响力。",
     "items": [
       {
-        "icon": "figma",
-        "company": "Figma",
-        "role": "产品设计师",
-        "time": "现在",
-        "location": "西雅图",
-        "description": "负责设计系统相关产品。"
+        "icon": "doodod",
+        "company": "独到科技",
+        "role": "AI 产品体验设计师",
+        "time": "2024.08–至今",
+        "location": "北京",
+        "description": "我负责三大 AI 平台的架构与体验设计，推动效率提升 500%、满意度增长 36.5%。"
       },
       {
-        "icon": "cocoon",
-        "company": "Cocoon",
-        "role": "设计总监",
-        "time": "2023",
-        "location": "西雅图",
-        "description": "我主导并落地产品与品牌全线设计，从零组建团队，显著提升转化，并推动公司品牌重塑；我们致力于打造亲人应得的请假管理平台。"
+        "icon": "floatingPointCloud",
+        "company": "浮点云数(PICO 供应商)",
+        "role": "产品体验设计师",
+        "time": "2023.04–2024.04",
+        "location": "北京",
+        "description": "我负责 PICO VR 直播全链路 UX 设计，补足核心链路体验。"
       },
       {
-        "icon": "dropbox",
-        "company": "Dropbox",
-        "role": "资深产品设计师",
-        "time": "2020–2022",
-        "location": "西雅图",
-        "description": "我主导完整网页产品改版、多个从 0 到 1 的新兴产品，以及面向公司多产品战略的全局导航与信息架构。"
+        "icon": "veer",
+        "company": "VeeR VR",
+        "role": "UI & UX 设计师",
+        "time": "2022.04–2022.05",
+        "location": "北京",
+        "description": "我主导官网改版，4 周完成上线，重新定义品牌表达。"
       },
       {
-        "icon": "facebook",
-        "company": "Facebook",
-        "role": "产品设计师",
-        "time": "201[numeral8]8[/numeral8]–2020",
-        "location": "西雅图",
-        "description": "我负责 Marketplace，主导浏览信息流、买家平台、车辆类目与设计系统等设计，帮助数十个团队以一致性与性能为数亿用户交付。"
+        "icon": "tojoy",
+        "company": "天九共享控股集团",
+        "role": "UI & UX 设计师",
+        "time": "2020.06–2022.03",
+        "location": "北京",
+        "description": "我主导 SaaS 大版本迭代与设计系统搭建，体验评分从 2.5 提升至 3.9。"
       },
       {
-        "icon": "thread",
-        "company": "Thread",
-        "role": "设计负责人",
-        "time": "2017–201[numeral8]8[/numeral8]",
-        "location": "伦敦",
-        "description": "我受邀在全公司各条线既牵头又亲自落地设计，共同打造深度融合真人造型师与机器学习的深度个性化在线购物产品。"
-      },
-      {
-        "icon": "squarespace",
-        "company": "Squarespace",
-        "role": "设计主理",
-        "time": "2011–2017",
-        "location": "纽约 · 波特兰",
-        "description": "作为早期设计成员，我在任职期间兼跨品牌与产品多项职责，助力重新定义网络发布，并让公司成为家喻户晓的名字。"
-      },
-      {
-        "icon": "freelance",
-        "company": "Freelance",
-        "role": "设计师与总监",
-        "time": "200[numeral8]8[/numeral8]–2019",
-        "location": "纽约 · 伦敦 · 西雅图 · 波特兰 · 坦佩",
-        "description": "我曾为国家地理摄影师、奥斯卡获奖电影人与全球创业者等客户定制网站、应用与视觉识别系统。"
+        "icon": "pla",
+        "company": "中国人民解放军 北部陆军",
+        "role": "战士",
+        "time": "2015.09–2017.09",
+        "location": "",
+        "description": "获\"旅级嘉奖\"与\"优秀义务兵\"称号。"
       }
     ]
   },

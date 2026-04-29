@@ -2,23 +2,19 @@ import { useTranslations } from "next-intl";
 import type { ReactNode } from "react";
 
 import {
-  CocoonIcon,
-  DropboxIcon,
-  FacebookIcon,
-  FigmaIcon,
-  FreelanceIcon,
-  SquarespaceIcon,
-  ThreadIcon,
+  DoododIcon,
+  FloatingPointCloudIcon,
+  PlaIcon,
+  TojoyIcon,
+  VeeRIcon,
 } from "@/components/icons/companies";
 
 type BackgroundIconKey =
-  | "figma"
-  | "cocoon"
-  | "dropbox"
-  | "facebook"
-  | "thread"
-  | "squarespace"
-  | "freelance";
+  | "doodod"
+  | "floatingPointCloud"
+  | "veer"
+  | "tojoy"
+  | "pla";
 
 interface BackgroundItem {
   icon: BackgroundIconKey;
@@ -31,13 +27,11 @@ interface BackgroundItem {
 }
 
 const ICON_MAP: Record<BackgroundIconKey, () => ReactNode> = {
-  figma: () => <FigmaIcon />,
-  cocoon: () => <CocoonIcon />,
-  dropbox: () => <DropboxIcon />,
-  facebook: () => <FacebookIcon />,
-  thread: () => <ThreadIcon />,
-  squarespace: () => <SquarespaceIcon />,
-  freelance: () => <FreelanceIcon />,
+  doodod: () => <DoododIcon />,
+  floatingPointCloud: () => <FloatingPointCloudIcon />,
+  veer: () => <VeeRIcon />,
+  tojoy: () => <TojoyIcon />,
+  pla: () => <PlaIcon />,
 };
 
 /** 把 time 字段里的 [numeral8]8[/numeral8] 占位换成 <span class="numeral-8">8</span>。 */
@@ -54,7 +48,7 @@ function renderTime(text: string): ReactNode {
   );
 }
 
-/** 经历区：第一段总述 + 7 个公司履历。 */
+/** 经历区：第一段总述 + 五条公司履历。 */
 export function Background() {
   const t = useTranslations("Background");
   const items = t.raw("items") as BackgroundItem[];
