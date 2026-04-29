@@ -35,7 +35,7 @@
     ],
     "texts": {
       "anyone": "你好，我是一名设计师，<br>用心做出能帮助人们的、<br>美丽且有意义的东西。",
-      "recruiters": "我是一名产品设计师，拥有跨越品牌与产品的 5+ 年经验，服务过大公司与初创团队。目前我在认真考虑下一步。",
+      "recruiters": "我是一名产品设计师，拥有跨越品牌与产品的 6+ 年经验，服务过大公司与初创团队。目前我在认真考虑下一步。",
       "design-directors": "我以专业与工艺为荣，乐于指导早期职业设计师；擅长建立跨职能协作，并在复杂、模糊的环境中把事情做成。",
       "product-designers": "我是系统型思考者，对质量有很高标准。从流程到像素，我会与你协作、向你学习，一起交付让我们骄傲的成果。",
       "product-managers": "我具备端到端的产品能力：从愿景与策略，到探索与交付。我会与你紧密合作，争取最大的业务影响。",
@@ -52,7 +52,7 @@
     "body": "这是我的核心设计价值观，我努力把它们体现在所有作品里。我一直都在造物，并寻找改善周遭的方式；用美的方式解决真实需求，是我热爱且内化的实践。与团队协作、创造远超单打独斗的成果，会让我充满能量。我喜欢想得大、推进快，却又保持克制与整体性：长期、可持续、跨职能，既能从公司战略拉远审视，也能扎进细节。我在持续成长，并以最高标准推进执行——同时把作品连接到更大的使命：让世界比我开始时更好一点。"
   },
   "Background": {
-    "body": "我学习视觉传达设计，从品牌、市场与网页设计起步，逐渐深耕产品设计。依托视觉功底与用户同理心，我成长为一名全面的设计负责人：打造以人为中心的平台，并在每个触点保持一致的叙事——从愿景与策略，到品牌传播与市场，再到产品开发与令人愉悦的微交互。15 年里，我做过自由职业、甲方团队、初创与上市公司，在多语境下积累了跨学科能力。强烈的好奇心、高标准的工艺与适应性，让我能在不断变化的环境中持续产生影响力。",
+    "body": "我学习视觉传达设计，从品牌、市场与网页设计起步，逐渐深耕产品设计。依托视觉功底与用户同理心，我成长为一名全面的设计负责人：打造以人为中心的平台，并在每个触点保持一致的叙事——从愿景与策略，到品牌传播与市场，再到产品开发与令人愉悦的微交互。6+ 年里，我做过自由职业、甲方团队、初创与上市公司，在多语境下积累了跨学科能力。强烈的好奇心、高标准的工艺与适应性，让我能在不断变化的环境中持续产生影响力。",
     "items": [
       {
         "icon": "doodod",
@@ -143,7 +143,7 @@
     ]
   },
   "About": {
-    "biography": "在品牌与产品设计领域已有 15 年经验，无论大公司还是小型团队，我都练就了既广且深的能力。我目前在 <a href=\"https://www.figma.com/\" target=\"_blank\">Figma</a> 负责设计系统相关产品；曾任 <a href=\"https://www.cocoon.com/\" target=\"_blank\">Cocoon</a> 设计总监、<a href=\"https://www.dropbox.com/\" target=\"_blank\">Dropbox</a> 资深产品设计师、<a href=\"https://www.facebook.com/\" target=\"_blank\">Facebook</a> 产品设计师、<a href=\"https://www.thread.com/\" target=\"_blank\">Thread</a> 设计负责人、<a href=\"https://www.squarespace.com/\" target=\"_blank\">Squarespace</a> 设计主理，也以自由设计师与总监身份服务过多类客户，并与众多跨学科的优秀伙伴密切合作。我接受经典设计训练，持有平面设计理学学士学位。我与妻儿生活在西雅图，尽可能多待在户外。",
+    "biography": "在品牌与产品设计领域已有 6+ 年经验，无论大公司还是小型团队，我都练就了既广且深的能力。我目前在 <a href=\"https://www.figma.com/\" target=\"_blank\">Figma</a> 负责设计系统相关产品；曾任 <a href=\"https://www.cocoon.com/\" target=\"_blank\">Cocoon</a> 设计总监、<a href=\"https://www.dropbox.com/\" target=\"_blank\">Dropbox</a> 资深产品设计师、<a href=\"https://www.facebook.com/\" target=\"_blank\">Facebook</a> 产品设计师、<a href=\"https://www.thread.com/\" target=\"_blank\">Thread</a> 设计负责人、<a href=\"https://www.squarespace.com/\" target=\"_blank\">Squarespace</a> 设计主理，也以自由设计师与总监身份服务过多类客户，并与众多跨学科的优秀伙伴密切合作。我接受经典设计训练，持有平面设计理学学士学位。我与妻儿生活在西雅图，尽可能多待在户外。",
     "awardsHeading": "荣誉",
     "awards": [
       { "html": "<span class=\"title\">Art Directors Club (ADC)<br></span><span class=\"description\">第 93 届年度大奖，互动类，银奖，2014<br></span><span class=\"description\">项目：Squarespace.com “Create Your Own Space”<br></span><span class=\"description\"><a href=\"http://adcglobal.org/wp-content/uploads/2014/04/WinnersNightTwoFINAL.pdf\" target=\"_blank\">查看奖项</a></span>" },
