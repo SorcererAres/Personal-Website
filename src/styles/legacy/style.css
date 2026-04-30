@@ -337,19 +337,14 @@ body.mobile-nav--is--visible .app-header .navigation .line:nth-child(2) .content
   outline: 2px solid var(--color--foreground--100);
   outline-offset: 2px;
 }
-.app-aside .option.locale svg {
-  display: block;
-  width: 32px;
-  height: 32px;
-}
-.app-aside .option.locale svg circle,
-.app-aside .option.locale svg path,
-.app-aside .option.locale svg ellipse {
-  fill: none;
-  stroke: var(--color--foreground--100);
-  stroke-width: 1.35;
-  stroke-linecap: round;
-  stroke-linejoin: round;
+.app-aside .option.locale .locale-switcher__label {
+  color: var(--color--foreground--100);
+  font-family: var(--font--family);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1;
+  pointer-events: none;
 }
 .app-aside .option.theme {
   position: relative;
