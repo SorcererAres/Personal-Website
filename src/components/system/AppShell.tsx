@@ -7,16 +7,7 @@ import { AppAside } from "@/components/system/AppAside";
 import { AppHeader } from "@/components/system/AppHeader";
 import { AppNav, type NavItem } from "@/components/system/AppNav";
 import { GridOverlay } from "@/components/system/GridOverlay";
-
-const NAV_IDS: NavItem["id"][] = [
-  "intro",
-  "work",
-  "values",
-  "background",
-  "references",
-  "about",
-  "contact",
-];
+import { SECTION_IDS } from "@/lib/site-contracts";
 
 /**
  * 整站壳层：包裹 ThemeProvider 并组装 header/nav/aside/grid overlay 与 main 内容。
@@ -32,7 +23,7 @@ export function AppShell({
   localeSwitcher?: ReactNode;
 }) {
   const t = useTranslations("Nav");
-  const navItems: NavItem[] = NAV_IDS.map((id) => ({ id, label: t(id) }));
+  const navItems: NavItem[] = SECTION_IDS.map((id) => ({ id, label: t(id) }));
   const brand = useTranslations("Brand")("name");
 
   return (

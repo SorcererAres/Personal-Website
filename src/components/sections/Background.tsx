@@ -8,13 +8,7 @@ import {
   TojoyIcon,
   VeeRIcon,
 } from "@/components/icons/companies";
-
-type BackgroundIconKey =
-  | "doodod"
-  | "floatingPointCloud"
-  | "veer"
-  | "tojoy"
-  | "pla";
+import type { BackgroundIconKey } from "@/lib/site-contracts";
 
 interface BackgroundItem {
   icon: BackgroundIconKey;
@@ -33,6 +27,19 @@ const ICON_MAP: Record<BackgroundIconKey, () => ReactNode> = {
   tojoy: () => <TojoyIcon />,
   pla: () => <PlaIcon />,
 };
+
+function renderBackgroundIcon(icon: BackgroundItem["icon"]): ReactNode {
+  if (
+    Object.prototype.hasOwnProperty.call(ICON_MAP, icon) &&
+    typeof ICON_MAP[icon] === "function"
+  ) {
+    return ICON_MAP[icon]();
+  }
+  if (process.env.NODE_ENV === "development") {
+    console.warn(`Background: unknown icon key ${JSON.stringify(icon)}`);
+  }
+  return null;
+}
 
 /** 把 time 字段里的 [numeral8]8[/numeral8] 占位换成 <span class="numeral-8">8</span>。 */
 function renderTime(text: string): ReactNode {
@@ -63,7 +70,7 @@ export function Background() {
         {items.map((item, i) => (
           <div className="item" key={i}>
             <div className="logo">
-              <div className="content">{ICON_MAP[item.icon]()}</div>
+              <div className="content">{renderBackgroundIcon(item.icon)}</div>
             </div>
             <h2 className="company">{item.company}</h2>
             <h1 className="role">{item.role}</h1>

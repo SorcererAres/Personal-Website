@@ -12,6 +12,13 @@ import {
   useState,
 } from "react";
 
+import {
+  BODY_STATE_CLASSES,
+  formatThemeClass,
+  THEME_MAX,
+  THEME_MIN,
+} from "@/lib/site-contracts";
+
 /**
  * 与 legacy script.js 等价的状态机：
  * - themeIndex: 0..16，对应 body.theme--00 .. theme--16；CSS 变量在 color.css 里定义
@@ -23,15 +30,8 @@ import {
 
 export type ThemeIndex = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | 16;
 
-const MIN_THEME = 0 as const;
-const MAX_THEME = 16 as const;
-
-function pad2(n: number) {
-  return n.toString().padStart(2, "0");
-}
-
 function clamp(n: number) {
-  return Math.max(MIN_THEME, Math.min(MAX_THEME, Math.round(n)));
+  return Math.max(THEME_MIN, Math.min(THEME_MAX, Math.round(n)));
 }
 
 interface ThemeState {
@@ -154,13 +154,13 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
     Array.from(cls).forEach((c) => {
       if (c.startsWith("theme--")) cls.remove(c);
     });
-    cls.add(`theme--${pad2(state.themeIndex)}`);
+    cls.add(formatThemeClass(state.themeIndex));
 
-    cls.toggle("is--loading", state.isLoading);
-    cls.toggle("cover--is--visible", state.coverVisible);
-    cls.toggle("mobile-nav--is--visible", state.mobileNavVisible);
-    cls.toggle("mobile-nav--is--transitioning", state.mobileNavTransitioning);
-    cls.toggle("theme-slider--is--visible", state.themeSliderVisible);
+    cls.toggle(BODY_STATE_CLASSES.loading, state.isLoading);
+    cls.toggle(BODY_STATE_CLASSES.coverVisible, state.coverVisible);
+    cls.toggle(BODY_STATE_CLASSES.mobileNavVisible, state.mobileNavVisible);
+    cls.toggle(BODY_STATE_CLASSES.mobileNavTransitioning, state.mobileNavTransitioning);
+    cls.toggle(BODY_STATE_CLASSES.themeSliderVisible, state.themeSliderVisible);
   }, [state]);
 
   // 键盘快捷键
@@ -174,7 +174,7 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const cycleSpectrum = useCallback(() => {
     setState((s) => ({
       ...s,
-      themeIndex: s.themeIndex === MIN_THEME ? MAX_THEME : s.themeIndex - 1,
+      themeIndex: s.themeIndex === THEME_MIN ? THEME_MAX : s.themeIndex - 1,
     }));
   }, []);
   const toggleGridOverlay = useCallback(

@@ -3,10 +3,11 @@
 import { useEffect, useState } from "react";
 
 import { useTheme } from "@/components/system/ThemeProvider";
+import type { SectionId } from "@/lib/site-contracts";
 
 export interface NavItem {
   /** 与 section 的 class 名一致：intro / work / values / background / references / about / contact */
-  id: string;
+  id: SectionId;
   label: string;
 }
 
