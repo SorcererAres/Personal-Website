@@ -42,6 +42,59 @@
       "engineers": "I’m {highly_technical} and while (I’m ≠ engineer) I know my way /around &amp; can speak “fluently” with you."
     }
   },
+  "Work": {
+    "eyebrow": "Selected work",
+    "title": "Projects worth opening up.",
+    "note": "Using solid-color previews for now; once the real case imagery is ready, these can become project screenshots.",
+    "projectLabel": "PROJECT",
+    "ctaLabel": "View case study",
+    "items": [
+      {
+        "number": "01",
+        "category": "AI platform experience",
+        "title": "Architecture and experience for three AI platforms",
+        "description": "Reshaped complex AI workflows through information architecture, critical task paths, and platform-level experience patterns, driving a 500% efficiency gain and 36.5% lift in satisfaction.",
+        "meta": "Doodod · 2024–Present",
+        "previewExtension": "JPG",
+        "previewLabel": "IMAGE.JPG",
+        "tags": ["AI platform", "UX architecture"],
+        "href": ""
+      },
+      {
+        "number": "02",
+        "category": "VR live streaming",
+        "title": "End-to-end PICO VR Live experience",
+        "description": "Completed the core live-streaming journey from discovery and entry to viewing and interaction, balancing immersion, accessibility, and frequent-use efficiency.",
+        "meta": "Floating Point Cloud / PICO Vendor · 2023–2024",
+        "previewExtension": "JPG",
+        "previewLabel": "IMAGE.JPG",
+        "tags": ["VR live", "Core flow"],
+        "href": ""
+      },
+      {
+        "number": "03",
+        "category": "Website redesign",
+        "title": "VeeR VR website and brand expression",
+        "description": "Shipped a full website redesign in 4 weeks, reorganizing product value, content rhythm, and visual expression into a sharper brand story.",
+        "meta": "VeeR VR · 2022",
+        "previewExtension": "JPG",
+        "previewLabel": "IMAGE.JPG",
+        "tags": ["Website", "Brand system"],
+        "href": ""
+      },
+      {
+        "number": "04",
+        "category": "ThreatBook Shared SaaS 5.0",
+        "title": "From interface work to design assets",
+        "description": "The core goal of version 5.0 was to establish a design system built around frameworks, patterns, and components, resolving design debt, protecting experience consistency, and supporting continuous product iteration.",
+        "meta": "ThreatBook · Shared SaaS 5.0",
+        "previewExtension": "JPG",
+        "previewLabel": "IMAGE.JPG",
+        "tags": ["Interaction framework", "Component library", "Consistency"],
+        "href": ""
+      }
+    ]
+  },
   "Values": {
     "lines": [
       "Design must work.",
@@ -143,12 +196,13 @@
     ]
   },
   "About": {
-    "biography": "With 6+ years of experience across brand and product design, at companies large and small, I’ve developed a skillset with breadth and depth. I’m currently working on design systems products at <a href=\"https://www.figma.com/\" target=\"_blank\">Figma</a>, was previously the Director of Design at <a href=\"https://www.cocoon.com/\" target=\"_blank\">Cocoon</a>, a Staff Product Designer at <a href=\"https://www.dropbox.com/\" target=\"_blank\">Dropbox</a>, a Product Designer at <a href=\"https://www.facebook.com/\" target=\"_blank\">Facebook</a>, the Head of Design at <a href=\"https://www.thread.com/\" target=\"_blank\">Thread</a>, a Design Lead at <a href=\"https://www.squarespace.com/\" target=\"_blank\">Squarespace</a>, a freelance designer and director commissioned by a variety of clients, and a close collaborator to many incredible people across multiple disciplines. I’m a classically trained designer, who holds a Bachelor of Science in Graphic Design. I live in Seattle with my wife and son, spending time outside as often\u00a0as\u00a0possible.",
+    "biography": "With 6+ years of experience across brand and product experience design, I have built both breadth and depth across large companies, startup teams, and multi-stakeholder collaborations. I currently lead AI product design at Doodod; previously, I worked as a Product Experience Designer for PICO through a vendor team, a UI&UX Designer at VeeR VR, and a UI&UX Designer at TOJOY. Across Web, Mobile, and VR, I have long focused on turning information architecture and critical user journeys into shipped product experiences. I have also led design system development and data-driven optimization, continuously translating complex technologies into usable, trustworthy, and scalable product experiences. I received systematic design training and bring solid cross-platform delivery capability.",
     "awardsHeading": "Certificates",
     "awards": [
       { "html": "<span class=\"title\">China General Chamber of Commerce Certified<br></span><span class=\"description\">Service Design Mentor</span>" },
       { "html": "<span class=\"title\">Coursera: IBM AI Product Manager<br></span><span class=\"description\">IBM AI Product Manager</span>" },
-      { "html": "<span class=\"title\">Coursera: Google UX Design<br></span><span class=\"description\">Google UX Design</span>" }
+      { "html": "<span class=\"title\">Coursera: Google UX Design<br></span><span class=\"description\">Google UX Design</span>" },
+      { "html": "<span class=\"title\">China General Chamber of Commerce Certified<br></span><span class=\"description\">Social New Retail Entrepreneurship Mentor</span>" }
     ],
     "pressHeading": "Training",
     "press": [

@@ -132,6 +132,15 @@ const audienceSchema = z.object({
 
 const backgroundIconSchema = z.enum(BACKGROUND_ICON_KEYS);
 
+const optionalHrefSchema = z.string().superRefine((href, ctx) => {
+  if (href === "" || isAllowedHref(href)) return;
+
+  ctx.addIssue({
+    code: "custom",
+    message: `Disallowed link href ${JSON.stringify(href)}`,
+  });
+});
+
 const messageSchema = z
   .object({
     Meta: z.object({
@@ -154,6 +163,26 @@ const messageSchema = z
     Intro: z.object({
       audiences: z.array(audienceSchema).min(1),
       texts: z.record(z.string(), htmlString),
+    }),
+    Work: z.object({
+      eyebrow: z.string().min(1),
+      title: z.string().min(1),
+      note: z.string().min(1),
+      projectLabel: z.string().min(1),
+      ctaLabel: z.string().min(1),
+      items: z.array(
+        z.object({
+          number: z.string().min(1),
+          category: z.string().min(1),
+          title: z.string().min(1),
+          description: z.string().min(1),
+          meta: z.string().min(1),
+          previewExtension: z.string().min(1),
+          previewLabel: z.string().min(1),
+          tags: z.array(z.string().min(1)).min(1),
+          href: optionalHrefSchema,
+        }),
+      ),
     }),
     Values: z.object({
       lines: z.array(z.string().min(1)).min(1),

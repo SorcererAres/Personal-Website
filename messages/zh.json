@@ -42,6 +42,59 @@
       "engineers": "我很「技术向」，虽说我≠工程师，但懂门道、也能和你顺畅聊实现。"
     }
   },
+  "Work": {
+    "eyebrow": "作品选集",
+    "title": "一些值得展开的项目。",
+    "note": "先用纯色预览占位；真实案例图整理完成后，可替换为项目截图。",
+    "projectLabel": "PROJECT",
+    "ctaLabel": "查看案例",
+    "items": [
+      {
+        "number": "01",
+        "category": "AI 平台体验设计",
+        "title": "三大 AI 平台的架构与体验",
+        "description": "围绕复杂 AI 工作流重建信息架构、关键任务路径与平台级体验规范，推动效率提升 500%、满意度增长 36.5%。",
+        "meta": "独到科技 · 2024–至今",
+        "previewExtension": "JPG",
+        "previewLabel": "IMAGE.JPG",
+        "tags": ["AI 平台", "体验架构"],
+        "href": ""
+      },
+      {
+        "number": "02",
+        "category": "VR 直播体验",
+        "title": "PICO VR 直播全链路体验",
+        "description": "补足 VR 直播从发现、进入、观看到互动的核心链路，平衡沉浸感、可达性与高频操作效率。",
+        "meta": "浮点云数 / PICO 供应商 · 2023–2024",
+        "previewExtension": "JPG",
+        "previewLabel": "IMAGE.JPG",
+        "tags": ["VR 直播", "核心链路"],
+        "href": ""
+      },
+      {
+        "number": "03",
+        "category": "官网改版",
+        "title": "VeeR VR 官网品牌表达重塑",
+        "description": "在 4 周内完成官网改版上线，重新组织产品价值、内容节奏与视觉表达，让品牌叙事更聚焦。",
+        "meta": "VeeR VR · 2022",
+        "previewExtension": "JPG",
+        "previewLabel": "IMAGE.JPG",
+        "tags": ["官网改版", "品牌表达"],
+        "href": ""
+      },
+      {
+        "number": "04",
+        "category": "微步智能_共享 SaaS 5.0",
+        "title": "拥抱设计系统从界面到资产",
+        "description": "5.0 版本的核心目标是通过建立「框架 + 模式 + 组件」的设计系统，解决设计债务，保障体验一致性，并支撑产品持续迭代。",
+        "meta": "微步智能 · 共享 SaaS 5.0",
+        "previewExtension": "JPG",
+        "previewLabel": "IMAGE.JPG",
+        "tags": ["交互框架", "组件库", "一致性"],
+        "href": ""
+      }
+    ]
+  },
   "Values": {
     "lines": [
       "设计即实用",
@@ -143,12 +196,13 @@
     ]
   },
   "About": {
-    "biography": "在品牌与产品设计领域已有 6+ 年经验，无论大公司还是小型团队，我都练就了既广且深的能力。我目前在 <a href=\"https://www.figma.com/\" target=\"_blank\">Figma</a> 负责设计系统相关产品；曾任 <a href=\"https://www.cocoon.com/\" target=\"_blank\">Cocoon</a> 设计总监、<a href=\"https://www.dropbox.com/\" target=\"_blank\">Dropbox</a> 资深产品设计师、<a href=\"https://www.facebook.com/\" target=\"_blank\">Facebook</a> 产品设计师、<a href=\"https://www.thread.com/\" target=\"_blank\">Thread</a> 设计负责人、<a href=\"https://www.squarespace.com/\" target=\"_blank\">Squarespace</a> 设计主理，也以自由设计师与总监身份服务过多类客户，并与众多跨学科的优秀伙伴密切合作。我接受经典设计训练，持有平面设计理学学士学位。我与妻儿生活在西雅图，尽可能多待在户外。",
+    "biography": "在品牌与产品体验设计领域已有 6+ 年经验，无论大厂、创业团队还是多方协作项目，我都练就了既广且深的能力。我目前在 Doodod 负责 AI 产品设计；曾任 PICO（供应商）产品体验设计师、VeeR VR UI&UX 设计师、天九共享 UI&UX 设计师，长期在 Web、Mobile、VR 等多端场景中推进从信息架构到关键链路的落地，也主导过设计系统搭建与数据驱动优化，持续把复杂技术转译为可用、可信、可规模化的产品体验。我接受系统化设计训练，具备扎实的跨端交付能力。",
     "awardsHeading": "证书",
     "awards": [
       { "html": "<span class=\"title\">中国商业联合会认证<br></span><span class=\"description\">服务设计师导师</span>" },
       { "html": "<span class=\"title\">Coursera: IBM AI Product Manager<br></span><span class=\"description\">IBM AI 产品经理</span>" },
-      { "html": "<span class=\"title\">Coursera: Google UX Design<br></span><span class=\"description\">Google UX 设计</span>" }
+      { "html": "<span class=\"title\">Coursera: Google UX Design<br></span><span class=\"description\">Google UX 设计</span>" },
+      { "html": "<span class=\"title\">中国商业联合会认证<br></span><span class=\"description\">社交新零售创业导师</span>" }
     ],
     "pressHeading": "进修",
     "press": [
