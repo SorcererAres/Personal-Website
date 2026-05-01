@@ -199,7 +199,8 @@ const messageSchema = z
       email: z.string().email(),
       emailSubject: z.string().min(1),
       linkedinLabel: z.string().min(1),
-      linkedinUrl: z.string().url(),
+      githubLabel: z.string().min(1),
+      githubUrl: z.string().url(),
       portraitAlt: z.string().min(1),
     }),
   })

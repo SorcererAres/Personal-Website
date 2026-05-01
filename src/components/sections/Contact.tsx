@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-/** 联系区：状态指示灯 + 标语 + 邮件/LinkedIn 入口 + 肖像照。 */
+/** 联系区：状态指示灯 + 标语 + 邮件/社交入口 + 肖像照。 */
 export function Contact() {
   const t = useTranslations("Contact");
 
@@ -31,8 +31,11 @@ export function Contact() {
               </a>
             </div>
             <div className="item">
-              <a href={t("linkedinUrl")} target="_blank" rel="noreferrer noopener">
-                {t("linkedinLabel")}
+              <span>{t("linkedinLabel")}</span>
+            </div>
+            <div className="item">
+              <a href={t("githubUrl")} target="_blank" rel="noreferrer noopener">
+                {t("githubLabel")}
               </a>
             </div>
           </div>

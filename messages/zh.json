@@ -144,32 +144,16 @@
   },
   "About": {
     "biography": "在品牌与产品设计领域已有 6+ 年经验，无论大公司还是小型团队，我都练就了既广且深的能力。我目前在 <a href=\"https://www.figma.com/\" target=\"_blank\">Figma</a> 负责设计系统相关产品；曾任 <a href=\"https://www.cocoon.com/\" target=\"_blank\">Cocoon</a> 设计总监、<a href=\"https://www.dropbox.com/\" target=\"_blank\">Dropbox</a> 资深产品设计师、<a href=\"https://www.facebook.com/\" target=\"_blank\">Facebook</a> 产品设计师、<a href=\"https://www.thread.com/\" target=\"_blank\">Thread</a> 设计负责人、<a href=\"https://www.squarespace.com/\" target=\"_blank\">Squarespace</a> 设计主理，也以自由设计师与总监身份服务过多类客户，并与众多跨学科的优秀伙伴密切合作。我接受经典设计训练，持有平面设计理学学士学位。我与妻儿生活在西雅图，尽可能多待在户外。",
-    "awardsHeading": "荣誉",
+    "awardsHeading": "证书",
     "awards": [
-      { "html": "<span class=\"title\">Art Directors Club (ADC)<br></span><span class=\"description\">第 93 届年度大奖，互动类，银奖，2014<br></span><span class=\"description\">项目：Squarespace.com “Create Your Own Space”<br></span><span class=\"description\"><a href=\"http://adcglobal.org/wp-content/uploads/2014/04/WinnersNightTwoFINAL.pdf\" target=\"_blank\">查看奖项</a></span>" },
-      { "html": "<span class=\"title\">The Webby Awards<br></span><span class=\"description\">第 21 届年度大奖，网络服务与应用类，2017<br></span><span class=\"description\">项目：Squarespace<br></span><span class=\"description\"><a href=\"http://webbyawards.com/winners/2017/websites/general-website/web-services-applications/squarespace/\" target=\"_blank\">查看奖项</a></span>" },
-      { "html": "<span class=\"title\">The Webby Awards<br></span><span class=\"description\">第 20 届年度大奖，网络服务与应用类，2016<br></span><span class=\"description\">项目：Squarespace<br></span><span class=\"description\"><a href=\"http://webbyawards.com/winners/2016/websites/general-website/web-services-applications/squarespace/\" target=\"_blank\">查看奖项</a></span>" },
-      { "html": "<span class=\"title\">The Webby Awards<br></span><span class=\"description\">第 1<span class=\"numeral-8\">8</span> 届年度大奖，网络服务与应用类，2014<br></span><span class=\"description\">项目：Squarespace<br></span><span class=\"description\"><a href=\"http://webbyawards.com/winners/2014/websites/general-website/web-services-applications/squarespace/\" target=\"_blank\">查看奖项</a></span>" },
-      { "html": "<span class=\"title\">The Webby Awards<br></span><span class=\"description\">第 1<span class=\"numeral-8\">8</span> 届年度大奖，最佳视觉设计—美学，2014<br></span><span class=\"description\">项目：Squarespace.com<br></span><span class=\"description\"><a href=\"http://www.webbyawards.com/winners/2014/web/website-features-and-design/best-visual-design-aesthetic/squarespace\" target=\"_blank\">查看奖项</a></span>" },
-      { "html": "<span class=\"title\">The Webby Awards<br></span><span class=\"description\">第 1<span class=\"numeral-8\">8</span> 届年度大奖，最佳首页/欢迎页，2014<br></span><span class=\"description\">项目：Squarespace.com<br></span><span class=\"description\"><a href=\"http://www.webbyawards.com/winners/2014/web/website-features-and-design/best-homewelcome-page/squarespace\" target=\"_blank\">查看奖项</a></span>" },
-      { "html": "<span class=\"title\">The Webby Awards<br></span><span class=\"description\">第 17 届年度大奖，最佳首页/欢迎页，2013<br></span><span class=\"description\">项目：Squarespace.com<br></span><span class=\"description\"><a href=\"http://winners.webbyawards.com/2013/web/website-features-and-design/best-homewelcome-page/squarespace\" target=\"_blank\">查看奖项</a></span>" },
-      { "html": "<span class=\"title\">Communication Arts<br></span><span class=\"description\">互动年鉴 20，网站／微型网站，2014<br></span><span class=\"description\">项目：Squarespace.com “Create Your Own Space”<br></span><span class=\"description\"><a href=\"http://www.commarts.com/gallery/interactive/all/all/2014/61938/1\" target=\"_blank\">查看奖项</a></span>" },
-      { "html": "<span class=\"title\">Communication Arts<br></span><span class=\"description\">当日网页精选，2014 年 2 月 3 日<br></span><span class=\"description\">项目：个人网站<br></span><span class=\"description\"><a href=\"http://www.commarts.com/webpicks/billy-sweeney\" target=\"_blank\">查看奖项</a></span>" },
-      { "html": "<span class=\"title\">AWWWARDS<br></span><span class=\"description\">当日最佳网站，2014 年 2 月 23 日<br></span><span class=\"description\">项目：Squarespace 官方博客<br></span><span class=\"description\"><a href=\"https://www.awwwards.com/sites/the-official-squarespace-blog\" target=\"_blank\">查看奖项</a></span>" },
-      { "html": "<span class=\"title\">AWWWARDS<br></span><span class=\"description\">当日最佳网站，2013 年 7 月 4 日<br></span><span class=\"description\">项目：Squarespace.com “Create Your Own Space”<br></span><span class=\"description\"><a href=\"https://www.awwwards.com/sites/squarespace-create-your-own-space\" target=\"_blank\">查看奖项</a></span>" },
-      { "html": "<span class=\"title\">AWWWARDS<br></span><span class=\"description\">当日最佳网站，2012 年 9 月 12 日<br></span><span class=\"description\">项目：Squarespace.com<br></span><span class=\"description\"><a href=\"https://www.awwwards.com/sites/squarespace\" target=\"_blank\">查看奖项</a></span>" },
-      { "html": "<span class=\"title\">Favourite Website Awards (FWA)<br></span><span class=\"description\">当日最佳网站，2013 年 8 月 5 日<br></span><span class=\"description\">项目：Squarespace.com “Create Your Own Space”<br></span><span class=\"description\"><a href=\"https://thefwa.com/cases/squarespace-create-your-own-space\" target=\"_blank\">查看奖项</a></span>" },
-      { "html": "<span class=\"title\">Site Inspire<br></span><span class=\"description\">收录网站，2016 年 4 月<br></span><span class=\"description\">项目：Squarespace Circle<br></span><span class=\"description\"><a href=\"https://www.siteinspire.com/websites/6398-circle-by-squarespace\" target=\"_blank\">查看奖项</a></span>" },
-      { "html": "<span class=\"title\">Site Inspire<br></span><span class=\"description\">收录网站，2014 年 1 月<br></span><span class=\"description\">项目：Squarespace 官方博客<br></span><span class=\"description\"><a href=\"https://www.siteinspire.com/websites/832-squarespace-blog\" target=\"_blank\">查看奖项</a></span>" },
-      { "html": "<span class=\"title\">Site Inspire<br></span><span class=\"description\">收录网站，2013 年 11 月<br></span><span class=\"description\">项目：Squarespace.com — Mobile Apps<br></span><span class=\"description\"><a href=\"https://www.siteinspire.com/websites/4128-squarespace-mobile-apps\" target=\"_blank\">查看奖项</a></span>" }
+      { "html": "<span class=\"title\">中国商业联合会认证<br></span><span class=\"description\">服务设计师导师</span>" },
+      { "html": "<span class=\"title\">Coursera: IBM AI Product Manager<br></span><span class=\"description\">IBM AI 产品经理</span>" },
+      { "html": "<span class=\"title\">Coursera: Google UX Design<br></span><span class=\"description\">Google UX 设计</span>" }
     ],
-    "pressHeading": "报道",
+    "pressHeading": "进修",
     "press": [
-      { "html": "<span class=\"title\">InVision<br></span><span class=\"description\">Inside Design：Squarespace<br></span><span class=\"description\">2017 年 1 月 23 日<br></span><span class=\"description\"><a href=\"https://www.invisionapp.com/blog/inside-design-squarespace/\" target=\"_blank\">查看文章</a></span>" },
-      { "html": "<span class=\"title\">The Dots UK<br></span><span class=\"description\">Squarespace Circle 全新品牌幕后<br></span><span class=\"description\">2016 年 11 月 1<span class=\"numeral-8\">8</span> 日<br></span><span class=\"description\"><a href=\"https://the-dots.com/projects/the-inside-scoop-on-the-new-squarespace-circle-branding-145111\" target=\"_blank\">查看文章</a></span>" },
-      { "html": "<span class=\"title\">Interface Lovers<br></span><span class=\"description\">张良鹏<br></span><span class=\"description\">2016 年 10 月 13 日<br></span><span class=\"description\"><a href=\"https://interfacelovers.com/interviews/billy-sweeney\" target=\"_blank\">查看文章</a></span>" },
-      { "html": "<span class=\"title\">HOW<br></span><span class=\"description\">曝光法则：把摄影用作自我推广工具<br></span><span class=\"description\">2016 年 9 月 19 日<br></span><span class=\"description\"><a href=\"http://www.howdesign.com/design-career/the-rules-of-exposure-leveraging-photography-as-a-self-promotion-tool/\" target=\"_blank\">查看文章</a></span>" },
-      { "html": "<span class=\"title\">Design Milk<br></span><span class=\"description\">Squarespace Circle + 品牌幕后<br></span><span class=\"description\">2016 年 8 月 29 日<br></span><span class=\"description\"><a href=\"http://design-milk.com/squarespace-circle-top-photo-shoot/\" target=\"_blank\">查看文章</a></span>" }
+      { "html": "<span class=\"title\">服务设计实践与应用<br></span><span class=\"description\">北京光华设计发展基金会<br></span><span class=\"description\">2022.05</span>" },
+      { "html": "<span class=\"title\">社交新零售创业导师「中级/高级」<br></span><span class=\"description\">中国商业联合会<br></span><span class=\"description\">2021.11</span>" }
     ],
     "colophonHeading": "版记",
     "colophonCredits": "设计与代码：<a href=\"/\">张良鹏</a>",
@@ -181,7 +165,8 @@
     "email": "liangpengart@163.com",
     "emailSubject": "Enquiry from website",
     "linkedinLabel": "LinkedIn",
-    "linkedinUrl": "https://www.linkedin.com/in/zhangliangpeng",
+    "githubLabel": "GitHub",
+    "githubUrl": "https://github.com/SorcererAres",
     "portraitAlt": "张良鹏 肖像照"
   }
 }

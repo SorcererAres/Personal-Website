@@ -846,7 +846,8 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   gap: var(--grid--app-gutter);
 }
 .section.contact .status h3,
-.section.contact .actions a {
+.section.contact .actions a,
+.section.contact .actions span {
   line-height: 1.375;
 }
 .section.contact h2 {
