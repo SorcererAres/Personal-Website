@@ -646,11 +646,12 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   padding-top: 0;
 }
 .section.work > .content {
+  grid-column: 1 / -1;
   padding: 220px 0 20px 0;
 }
 .section.work .heading {
   display: grid;
-  grid-template-columns: var(--grid--app-columns-2);
+  grid-template-columns: var(--grid--app-columns-12);
   column-gap: var(--grid--app-gutter);
   padding-bottom: 80px;
 }
@@ -660,21 +661,22 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   line-height: var(--font--size-regular-line-height);
 }
 .section.work .eyebrow {
-  grid-column: 1 / -1;
+  grid-column: 5 / -1;
   color: var(--color--foreground--50);
   padding-bottom: 12px;
 }
 .section.work .heading h1 {
-  grid-column: 1 / -1;
+  grid-column: 5 / -1;
   max-width: 9em;
 }
 .section.work .note {
-  grid-column: 2 / -1;
+  grid-column: 9 / -1;
   color: var(--color--foreground--50);
   padding-top: 24px;
 }
 .section.work .projects {
   display: grid;
+  grid-template-columns: var(--grid--app-columns-12);
   gap: 0;
 }
 .section.work .project {
@@ -688,11 +690,12 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   --work-tab-clip: polygon(0 0, calc(100% - 44px) 0, 100% 100%, 0 100%);
   --work-tab-justify: flex-start;
   --work-preview-bg: rgb(243 230 207 / 1);
+  grid-column: 2 / -1;
   position: sticky;
   top: 0;
   z-index: 1;
-  height: 100vh;
-  max-height: 1000px;
+  height: auto;
+  max-height: none;
   padding: 80px 0 32px;
   display: flex;
   flex-direction: column;
@@ -773,8 +776,12 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   color: var(--work-panel-fg);
   background-color: var(--work-panel-bg);
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-  flex: 1 1 auto;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: clamp(32px, 4vw, 96px);
+  flex: none;
+  align-self: stretch;
+  width: 100%;
+  aspect-ratio: 2.15 / 1;
   min-height: 0;
   padding: 16px;
   overflow: hidden;
@@ -877,11 +884,47 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 }
 .section.work .project-preview {
   position: relative;
+  align-self: center;
+  justify-self: end;
+  width: auto;
+  height: 100%;
+  aspect-ratio: 1 / 1;
   min-height: 0;
   margin: 0;
   background-color: var(--work-preview-bg);
   border: 2px solid var(--work-panel-fg);
   overflow: hidden;
+}
+@media all and (min-width: 1800px) {
+  .section.work .project-panel {
+    column-gap: clamp(72px, 5vw, 140px);
+    padding: 24px;
+  }
+  .section.work .project-text {
+    padding: clamp(44px, 3.2vw, 88px) clamp(44px, 3.2vw, 88px) clamp(28px, 2vw, 56px) clamp(36px, 2.8vw, 72px);
+  }
+  .section.work .meta,
+  .section.work .status,
+  .section.work .project a,
+  .section.work .description,
+  .section.work .tags span {
+    font-size: clamp(18px, 0.82vw, 22px);
+  }
+  .section.work .project h2 {
+    font-size: clamp(112px, 5.6vw, 168px);
+  }
+  .section.work .description {
+    max-width: 28em;
+    padding-top: clamp(28px, 1.4vw, 40px);
+  }
+  .section.work .tags {
+    gap: clamp(14px, 0.8vw, 22px);
+    padding-top: clamp(56px, 4vw, 96px);
+  }
+  .section.work .tags span {
+    min-height: clamp(48px, 2.4vw, 62px);
+    padding: 0 clamp(14px, 0.8vw, 22px);
+  }
 }
 .section.work .project-preview::before,
 .section.work .project-preview::after {
@@ -993,20 +1036,28 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
     top: auto;
     height: min-content;
     max-height: none;
+    grid-column: 1 / -1;
     padding: 0;
   }
   .section.work .heading,
   .section.work .project-panel {
     grid-template-columns: var(--grid--app-columns-1);
   }
+  .section.work .eyebrow,
+  .section.work .heading h1,
   .section.work .note {
     grid-column: 1 / -1;
   }
   .section.work .project-panel {
+    align-self: stretch;
+    width: 100%;
+    aspect-ratio: auto;
     min-height: 0;
   }
   .section.work .project-preview {
-    aspect-ratio: 1.42;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
     min-height: 0;
   }
 }

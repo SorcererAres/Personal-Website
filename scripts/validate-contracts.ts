@@ -54,8 +54,15 @@ async function assertThemeClasses() {
   }
 }
 
-await assertSectionClasses();
-await assertNavMessages();
-await assertThemeClasses();
+async function main() {
+  await assertSectionClasses();
+  await assertNavMessages();
+  await assertThemeClasses();
 
-console.log("Validated section, nav, and theme contracts.");
+  console.log("Validated section, nav, and theme contracts.");
+}
+
+main().catch((error) => {
+  console.error(error);
+  process.exit(1);
+});

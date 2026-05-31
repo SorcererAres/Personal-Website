@@ -21,7 +21,10 @@
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "check": "npm run lint && npm run typecheck && npm run build",
+    "validate:messages": "tsx scripts/validate-messages.ts",
+    "validate:contracts": "tsx scripts/validate-contracts.ts",
+    "validate": "npm run validate:messages && npm run validate:contracts",
+    "check": "npm run lint && npm run typecheck && npm run validate && npm run build",
     "visual-diff": "node scripts/visual-diff.mjs"
   },
   "dependencies": {
