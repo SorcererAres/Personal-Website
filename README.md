@@ -1,6 +1,6 @@
 # 个人网站
 
-基于 Next.js 16、React 19、`next-intl` 的单页作品集站点。内容与交互均为 React；视觉样式沿用迁移自原克隆站的 CSS（`src/styles/legacy/`）。
+基于 Next.js 16、React 19、`next-intl` 的单页作品集站点。内容与交互均为 React；
 
 ## 前置
 
