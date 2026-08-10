@@ -132,6 +132,14 @@ const audienceSchema = z.object({
 
 const backgroundIconSchema = z.enum(BACKGROUND_ICON_KEYS);
 
+/**
+ * 作品预览图的「基路径」：不含 `-<宽度>.jpg` 后缀，由 Work 组件拼出 srcset。
+ * 只允许站内 /images/ 路径，避免文案引入外链图片。
+ */
+const previewImageSchema = z
+  .string()
+  .regex(/^\/images\/[\w-]+(\/[\w-]+)*$/, "Preview image must be a local /images path without extension");
+
 const optionalHrefSchema = z.string().superRefine((href, ctx) => {
   if (href === "" || isAllowedHref(href)) return;
 
@@ -168,7 +176,6 @@ const messageSchema = z
       eyebrow: z.string().min(1),
       title: z.string().min(1),
       note: z.string().min(1),
-      projectLabel: z.string().min(1),
       ctaLabel: z.string().min(1),
       items: z.array(
         z.object({
@@ -179,6 +186,7 @@ const messageSchema = z
           meta: z.string().min(1),
           previewExtension: z.string().min(1),
           previewLabel: z.string().min(1),
+          previewImage: previewImageSchema.optional(),
           tags: z.array(z.string().min(1)).min(1),
           href: optionalHrefSchema,
         }),

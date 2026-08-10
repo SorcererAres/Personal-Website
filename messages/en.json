@@ -45,12 +45,23 @@
   "Work": {
     "eyebrow": "Selected work",
     "title": "Projects worth opening up.",
-    "note": "Using solid-color previews for now; once the real case imagery is ready, these can become project screenshots.",
-    "projectLabel": "PROJECT",
+    "note": "Each one can be unpacked: the constraints at the time, the trade-offs made, and what actually changed.",
     "ctaLabel": "View case study",
     "items": [
       {
         "number": "01",
+        "category": "Independent product",
+        "title": "Galt\nSpeak it, and it's written",
+        "description": "A dictation tool for macOS: hold fn to speak, release and the polished text lands right at your cursor. Cloud and on-device transcription, a personal dictionary, and filler-word removal turn speech into finished copy in one pass.",
+        "meta": "Independent project · 2026",
+        "previewExtension": "JPG",
+        "previewLabel": "GALT.JPG",
+        "previewImage": "/images/work/galt",
+        "tags": ["Dictation", "macOS"],
+        "href": "https://galt.muduo.art/"
+      },
+      {
+        "number": "02",
         "category": "AI platform experience",
         "title": "Architecture and experience for three AI platforms",
         "description": "Reshaped complex AI workflows through information architecture, critical task paths, and platform-level experience patterns, driving a 500% efficiency gain and 36.5% lift in satisfaction.",
@@ -61,7 +72,7 @@
         "href": ""
       },
       {
-        "number": "02",
+        "number": "03",
         "category": "VR live streaming",
         "title": "End-to-end PICO VR Live experience",
         "description": "Completed the core live-streaming journey from discovery and entry to viewing and interaction, balancing immersion, accessibility, and frequent-use efficiency.",
@@ -69,28 +80,6 @@
         "previewExtension": "JPG",
         "previewLabel": "IMAGE.JPG",
         "tags": ["VR live", "Core flow"],
-        "href": ""
-      },
-      {
-        "number": "03",
-        "category": "Website redesign",
-        "title": "VeeR VR website and brand expression",
-        "description": "Shipped a full website redesign in 4 weeks, reorganizing product value, content rhythm, and visual expression into a sharper brand story.",
-        "meta": "VeeR VR · 2022",
-        "previewExtension": "JPG",
-        "previewLabel": "IMAGE.JPG",
-        "tags": ["Website", "Brand system"],
-        "href": ""
-      },
-      {
-        "number": "04",
-        "category": "ThreatBook Shared SaaS 5.0",
-        "title": "From interface work to design assets",
-        "description": "The core goal of version 5.0 was to establish a design system built around frameworks, patterns, and components, resolving design debt, protecting experience consistency, and supporting continuous product iteration.",
-        "meta": "ThreatBook · Shared SaaS 5.0",
-        "previewExtension": "JPG",
-        "previewLabel": "IMAGE.JPG",
-        "tags": ["Interaction framework", "Component library", "Consistency"],
         "href": ""
       }
     ]

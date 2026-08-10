@@ -682,13 +682,6 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 .section.work .project {
   --work-panel-bg: rgb(56 190 226);
   --work-panel-fg: rgb(12 75 96);
-  --work-tab-bg: var(--work-panel-bg);
-  --work-tab-fg: rgb(0 0 0 / 1);
-  --work-tab-offset: 0%;
-  --work-tab-width: calc(15% + 82px);
-  --work-tab-pad-left: 56px;
-  --work-tab-clip: polygon(0 0, calc(100% - 44px) 0, 100% 100%, 0 100%);
-  --work-tab-justify: flex-start;
   --work-preview-bg: rgb(243 230 207 / 1);
   grid-column: 2 / -1;
   position: sticky;
@@ -703,74 +696,17 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 .section.work .project:nth-child(2) {
   --work-panel-bg: rgb(17 18 18 / 1);
   --work-panel-fg: rgb(255 255 255 / 1);
-  --work-tab-bg: rgb(17 18 18 / 1);
-  --work-tab-fg: rgb(255 255 255 / 1);
-  --work-tab-offset: 19%;
-  --work-tab-width: calc(15% + 82px);
-  --work-tab-pad-left: 44px;
-  --work-tab-clip: polygon(14% 0, 86% 0, 100% 100%, 0 100%);
-  --work-tab-justify: center;
   --work-preview-bg: rgb(242 251 253 / 1);
 }
 .section.work .project:nth-child(3) {
   --work-panel-bg: rgb(225 25 91 / 1);
   --work-panel-fg: rgb(255 255 255 / 1);
-  --work-tab-bg: rgb(225 25 91 / 1);
-  --work-tab-fg: rgb(255 255 255 / 1);
-  --work-tab-offset: 43%;
-  --work-tab-width: calc(15% + 82px);
-  --work-tab-pad-left: 44px;
-  --work-tab-clip: polygon(11% 0, 89% 0, 100% 100%, 0 100%);
-  --work-tab-justify: center;
   --work-preview-bg: rgb(255 210 180 / 1);
 }
 .section.work .project:nth-child(4) {
   --work-panel-bg: rgb(243 230 207 / 1);
   --work-panel-fg: rgb(119 78 52 / 1);
-  --work-tab-bg: rgb(243 230 207 / 1);
-  --work-tab-fg: rgb(119 78 52 / 1);
-  --work-tab-offset: 67%;
-  --work-tab-width: calc(15% + 82px);
-  --work-tab-pad-left: 44px;
-  --work-tab-clip: polygon(14% 0, 86% 0, 100% 100%, 0 100%);
-  --work-tab-justify: center;
   --work-preview-bg: rgb(222 235 238 / 1);
-}
-.section.work .project-tabs {
-  position: relative;
-  display: flex;
-  align-items: flex-end;
-  width: 100%;
-  height: 72px;
-  flex: none;
-  overflow: hidden;
-  pointer-events: none;
-}
-.section.work .project-tab {
-  width: var(--work-tab-width);
-  height: 72px;
-  margin-left: var(--work-tab-offset);
-  margin-right: -18px;
-  padding: 28px 44px 0 var(--work-tab-pad-left);
-  color: var(--work-tab-fg);
-  background-color: var(--work-tab-bg);
-  clip-path: var(--work-tab-clip);
-  font-size: var(--font--size-regular);
-  line-height: 1;
-  text-transform: uppercase;
-  white-space: nowrap;
-  display: flex;
-  justify-content: var(--work-tab-justify);
-  align-items: flex-start;
-}
-.section.work .project-tab::before {
-  content: "";
-  display: inline-block;
-  width: 14px;
-  height: 14px;
-  margin-right: 8px;
-  background: currentColor;
-  clip-path: polygon(0 60%, 35% 60%, 35% 30%, 70% 30%, 70% 0, 100% 0, 100% 100%, 0 100%);
 }
 .section.work .project-panel {
   color: var(--work-panel-fg);
@@ -823,8 +759,10 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 .section.work .project h2 {
   max-width: 11em;
   padding-top: 18px;
-  font-size: clamp(54px, 6.2vw, 112px);
+  font-size: clamp(40px, 4vw, 72px);
   line-height: 0.92;
+  /* 标题换行位置由 messages 里的 \n 控制 */
+  white-space: pre-line;
   letter-spacing: 0;
 }
 .section.work .description {
@@ -911,7 +849,7 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
     font-size: clamp(18px, 0.82vw, 22px);
   }
   .section.work .project h2 {
-    font-size: clamp(112px, 5.6vw, 168px);
+    font-size: clamp(72px, 4vw, 104px);
   }
   .section.work .description {
     max-width: 28em;
@@ -972,6 +910,15 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   height: 18%;
   opacity: 0.1;
 }
+.section.work .preview-image {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 .section.work .file-label {
   position: absolute;
   top: 40px;
@@ -1027,11 +974,6 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 }
 @media all and (max-width: 900px) {
   .section.work .project {
-    --work-tab-offset: 0px;
-    --work-tab-width: min(260px, 70vw);
-    --work-tab-pad-left: 34px;
-    --work-tab-clip: polygon(0 0, calc(100% - 36px) 0, 100% 100%, 0 100%);
-    --work-tab-justify: flex-start;
     position: relative;
     top: auto;
     height: min-content;
@@ -1073,14 +1015,6 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
   }
   .section.work .project {
     padding: 0;
-  }
-  .section.work .project-tabs {
-    height: 58px;
-  }
-  .section.work .project-tab {
-    width: min(210px, 58vw);
-    height: 58px;
-    padding: 22px 32px 0 34px;
   }
   .section.work .project-text {
     padding: 32px 18px 20px;

@@ -8,9 +8,14 @@ interface WorkItem {
   meta: string;
   previewExtension: string;
   previewLabel: string;
+  /** 预览图基路径（不含 `-<宽度>.jpg`）；缺省时回退到纯 CSS 占位窗口。 */
+  previewImage?: string;
   tags: string[];
   href: string;
 }
+
+/** 预览图导出的两档宽度，与 public/images/work/ 中的文件名对应。 */
+const PREVIEW_WIDTHS = [1440, 2400] as const;
 
 /** 作品区：参考 Web Works 展示形式，以站内视觉系统重写。 */
 export function Work() {
@@ -29,12 +34,6 @@ export function Work() {
         <div className="projects">
           {items.map((item) => (
             <article className="project" key={item.number}>
-              <div className="project-tabs" aria-hidden="true">
-                <span className="project-tab">
-                  {t("projectLabel")} {item.number}
-                </span>
-              </div>
-
               <div className="project-panel">
                 <div className="project-text">
                   <p className="meta">{item.meta}</p>
@@ -57,7 +56,22 @@ export function Work() {
                     <span className="file-extension">{item.previewExtension}</span>
                     {item.previewLabel}
                   </span>
-                  <span className="preview-window" />
+                  {item.previewImage ? (
+                    // eslint-disable-next-line @next/next/no-img-element -- legacy CSS 依赖 figure 内的扁平结构，next/image 的包裹层会破坏定位
+                    <img
+                      className="preview-image"
+                      src={`${item.previewImage}-${PREVIEW_WIDTHS[0]}.jpg`}
+                      srcSet={PREVIEW_WIDTHS.map(
+                        (w) => `${item.previewImage}-${w}.jpg ${w}w`,
+                      ).join(", ")}
+                      sizes="(max-width: 900px) 92vw, 40vw"
+                      alt=""
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  ) : (
+                    <span className="preview-window" />
+                  )}
                   <span className="handle top-left" />
                   <span className="handle top-right" />
                   <span className="handle bottom-left" />

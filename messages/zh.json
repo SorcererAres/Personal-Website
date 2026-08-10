@@ -45,12 +45,23 @@
   "Work": {
     "eyebrow": "作品选集",
     "title": "一些值得展开的项目。",
-    "note": "先用纯色预览占位；真实案例图整理完成后，可替换为项目截图。",
-    "projectLabel": "PROJECT",
+    "note": "每个项目都能展开讲：当时的约束、做过的取舍，以及最后真正改变了什么。",
     "ctaLabel": "查看案例",
     "items": [
       {
         "number": "01",
+        "category": "独立产品设计与开发",
+        "title": "Galt\n说出来，就是成稿",
+        "description": "面向 macOS 的语音成稿工具：按住 fn 说话，松开后润色好的文字直接落在光标处。云端与本地双转写模式，个人词典与去口水词让口述一次成稿。",
+        "meta": "独立项目 · 2026",
+        "previewExtension": "JPG",
+        "previewLabel": "GALT.JPG",
+        "previewImage": "/images/work/galt",
+        "tags": ["语音成稿", "macOS"],
+        "href": "https://galt.muduo.art/"
+      },
+      {
+        "number": "02",
         "category": "AI 平台体验设计",
         "title": "三大 AI 平台的架构与体验",
         "description": "围绕复杂 AI 工作流重建信息架构、关键任务路径与平台级体验规范，推动效率提升 500%、满意度增长 36.5%。",
@@ -61,7 +72,7 @@
         "href": ""
       },
       {
-        "number": "02",
+        "number": "03",
         "category": "VR 直播体验",
         "title": "PICO VR 直播全链路体验",
         "description": "补足 VR 直播从发现、进入、观看到互动的核心链路，平衡沉浸感、可达性与高频操作效率。",
@@ -69,28 +80,6 @@
         "previewExtension": "JPG",
         "previewLabel": "IMAGE.JPG",
         "tags": ["VR 直播", "核心链路"],
-        "href": ""
-      },
-      {
-        "number": "03",
-        "category": "官网改版",
-        "title": "VeeR VR 官网品牌表达重塑",
-        "description": "在 4 周内完成官网改版上线，重新组织产品价值、内容节奏与视觉表达，让品牌叙事更聚焦。",
-        "meta": "VeeR VR · 2022",
-        "previewExtension": "JPG",
-        "previewLabel": "IMAGE.JPG",
-        "tags": ["官网改版", "品牌表达"],
-        "href": ""
-      },
-      {
-        "number": "04",
-        "category": "微步智能_共享 SaaS 5.0",
-        "title": "拥抱设计系统从界面到资产",
-        "description": "5.0 版本的核心目标是通过建立「框架 + 模式 + 组件」的设计系统，解决设计债务，保障体验一致性，并支撑产品持续迭代。",
-        "meta": "微步智能 · 共享 SaaS 5.0",
-        "previewExtension": "JPG",
-        "previewLabel": "IMAGE.JPG",
-        "tags": ["交互框架", "组件库", "一致性"],
         "href": ""
       }
     ]
