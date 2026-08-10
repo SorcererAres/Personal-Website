@@ -565,15 +565,11 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 .section.intro .options {
   position: relative;
   display: flex;
-  flex-wrap: nowrap;
-  overflow-x: scroll;
-  -ms-overflow-style: none;  /* Hide scrollbar for IE and Edge */
-  scrollbar-width: none;  /* Hide scrollbar for Firefox */
+  /* 窄屏折行显示全部受众，避免单行撑破文档宽度 */
+  flex-wrap: wrap;
+  min-width: 0;
   -webkit-user-select: none;
   user-select: none;
-}
-.section.intro .options::-webkit-scrollbar {
-  display: none;  /* Hide scrollbar for Chrome, Safari and Opera */
 }
 .section.intro .options:hover {
   cursor: pointer;
@@ -592,32 +588,8 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
 .section.intro .options .option:first-child {
   padding-left: 0;
 }
-.section.intro .options .option:last-child {
-  padding-right: 80px;
-}
 .section.intro .options .option.is--active {
   color: var(--color--foreground--100);
-}
-.section.intro .gradient-mask {
-  width: 80px;
-  height: 44px;
-  position: absolute;
-  pointer-events: none;
-  opacity: 0;
-  z-index: 10;
-  transition: opacity 0.3s ease;
-}
-.section.intro .gradient-mask.left {
-  left: 0;
-  background: linear-gradient(to right, var(--color--background--100) 2%, var(--color--background--0) 100%);
-}
-.section.intro .gradient-mask.right {
-  right: 0;
-  background: linear-gradient(to left, var(--color--background--100) 2%, var(--color--background--0) 100%);
-}
-.section.intro .gradient-mask.left.is--visible,
-.section.intro .gradient-mask.right.is--visible {
-  opacity: 1;
 }
 .section.intro .texts {
 
@@ -982,7 +954,9 @@ body.theme-slider--is--visible .app-aside .option.theme .dot:nth-child(1)  { tra
     padding: 0;
   }
   .section.work .heading,
-  .section.work .project-panel {
+  .section.work .project-panel,
+  /* 12 列在窄屏会被压成 0px 轨道，令跨列的 .project 失去 grid area 后被内容撑破文档 */
+  .section.work .projects {
     grid-template-columns: var(--grid--app-columns-1);
   }
   .section.work .eyebrow,

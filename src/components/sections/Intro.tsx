@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 
 interface AudienceOption {
   id: string;
@@ -19,35 +19,10 @@ export function Intro() {
   const texts = t.raw("texts") as Record<string, string>;
   const [active, setActive] = useState<string>(audiences[0]?.id ?? "anyone");
 
-  // gradient-mask 左右遮罩：根据横向滚动量切换 is--visible
-  const optionsRef = useRef<HTMLDivElement | null>(null);
-  const [showLeftMask, setShowLeftMask] = useState(false);
-  const [showRightMask, setShowRightMask] = useState(true);
-
-  useEffect(() => {
-    const el = optionsRef.current;
-    if (!el) return;
-    function update() {
-      if (!el) return;
-      setShowLeftMask(el.scrollLeft > 0);
-      setShowRightMask(el.scrollLeft + el.clientWidth < el.scrollWidth - 1);
-    }
-    update();
-    el.addEventListener("scroll", update);
-    window.addEventListener("resize", update);
-    return () => {
-      el.removeEventListener("scroll", update);
-      window.removeEventListener("resize", update);
-    };
-  }, []);
-
   return (
     <section className="section intro">
       <div className="content">
-        <div className={`gradient-mask left ${showLeftMask ? "is--visible" : ""}`} />
-        <div className={`gradient-mask right ${showRightMask ? "is--visible" : ""}`} />
-
-        <div className="options" ref={optionsRef}>
+        <div className="options">
           {audiences.map((a) => (
             <div
               key={a.id}
