@@ -13,7 +13,8 @@ npm install
 npm run dev          # http://localhost:3000 → /zh、/en
 npm run build
 npm run start
-npm run check        # lint + typecheck + build
+npm run validate     # 文案 schema + 站点契约校验
+npm run check        # lint + typecheck + validate + build
 npm run visual-diff -- <基线.png> <对比.png> [diff-out.png]
 ```
 

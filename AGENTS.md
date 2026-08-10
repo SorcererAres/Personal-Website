@@ -1,7 +1,11 @@
 <!-- BEGIN:nextjs-agent-rules -->
+
 # This is NOT the Next.js you know
 
-This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing new code. Heed deprecation notices.
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` (resolved from this file's directory; in monorepos the `next` package may not be visible from the repo root) before writing any code. Heed deprecation notices.
+
+This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
+
 <!-- END:nextjs-agent-rules -->
 
 # 个人网站（单源 React 架构）
@@ -13,13 +17,14 @@ Next.js 16 App Router + `next-intl`，内容与交互全部为 React；视觉沿
 - **运行**：Next.js 16、React 19、TypeScript strict
 - **i18n**：`next-intl`，`localePrefix: "always"`（路径形如 `/zh`、`/en`）
 - **文案**：`messages/zh.json`、`messages/en.json`（唯一内容源）
-- **样式**：legacy 聚合入口 `src/styles/legacy/index.css`；可选 Tailwind 见 `src/app/globals.css`（若未在 layout 引入则不影响线上）
+- **样式**：仅 legacy CSS，聚合入口 `src/styles/legacy/index.css`（由 `app/[locale]/layout` 引入）；无 Tailwind
 
 ## 命令
 - `npm run dev` — 本地开发
 - `npm run build` — 生产构建（`output: "standalone"` 可用于容器）
 - `npm run lint` / `npm run typecheck`
-- `npm run check` — lint + typecheck + build
+- `npm run validate` — 校验 `messages/*.json` schema 与站点契约（section class、Nav 键、主题选择器）
+- `npm run check` — lint + typecheck + validate + build
 - `npm run visual-diff -- <baseline.png> <candidate.png> [diff.png]` — pixelmatch 对比（候选图需自行截图导出）
 
 ## 目录要点
