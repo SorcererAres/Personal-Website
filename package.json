@@ -7,10 +7,10 @@
   "license": "UNLICENSED",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sorcererdesign/Personal-Website.git"
+    "url": "https://github.com/SorcererAres/Personal-Website.git"
   },
   "bugs": {
-    "url": "https://github.com/sorcererdesign/Personal-Website/issues"
+    "url": "https://github.com/SorcererAres/Personal-Website/issues"
   },
   "engines": {
     "node": ">=24"

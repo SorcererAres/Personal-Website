@@ -29,5 +29,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 > （[JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template)），
 > 其变更历史不在本仓库范围内。
 
-[Unreleased]: https://github.com/sorcererdesign/Personal-Website/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/sorcererdesign/Personal-Website/releases/tag/v1.0.0
+[Unreleased]: https://github.com/SorcererAres/Personal-Website/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/SorcererAres/Personal-Website/releases/tag/v1.0.0
