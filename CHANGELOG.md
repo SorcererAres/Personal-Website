@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - 版本下界一并提升至已修复版，避免删除 lockfile 重装时解析回受影响版本
 
 ### Added
+- 站点上线至 [muduo.art](https://muduo.art)（Vercel 托管，GitHub 推送自动部署）；`www` 以 308 永久重定向至主域名，两域名各自签发证书并自动续期
 - 作品新增 Galt（[galt.muduo.art](https://galt.muduo.art/)），含官网截图预览（1440/2400 两档），为首个带「查看案例」CTA 的条目
 - 作品预览图渲染通道：条目声明 `previewImage` 时输出 `img` + `srcset`，否则回退原有纯 CSS 占位；schema 限定其只能是站内 `/images/` 路径
 - 作品标题支持在 `messages/*` 中以 `\n` 控制换行（`white-space: pre-line`）
@@ -29,6 +30,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `.gitignore` 忽略本地开发配置 `.claude/launch.json`
 
 ### Fixed
+- 整页刷新后停留在原滚动位置：浏览器默认 `history.scrollRestoration` 为 `auto`，与 `ThemeProvider` 重播的 cover 首屏冲突（遮罩在页面中部闪过），改为 `manual` 并在挂载时归零；软切换语言同时显式回到顶部，不再依赖 Link 的默认滚动时序
+- Vercel 构建失败于 `.next/next-server.js.nft.json`：`output: "standalone"` 与 Vercel 自带的构建输出流程冲突，改为仅在非 Vercel 环境启用（容器部署能力不变）
 - 窄屏横向溢出：375px 下文档 `scrollWidth` 为 544。`.section.work .projects` 在移动端仍是 12 列，轨道被压成 0px 后跨列的 `.project` 失去 grid area 并退回 max-content；`.section.intro .options` 作为 grid 子项缺 `min-width: 0` 致 `overflow-x` 未生效
 - CI 触发分支由 `master` 改为 `main`——此前工作流从未真正运行
 - `README` / `AGENTS` 中 `npm run check` 的描述补上 `validate` 一步；`AGENTS` 移除已不存在的 Tailwind / `globals.css` 说明
