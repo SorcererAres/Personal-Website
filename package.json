@@ -1,6 +1,6 @@
 {
   "name": "personal-website",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "description": "张良鹏个人网站（Next.js 16 + next-intl + React 单源架构）",
   "author": "张良鹏",

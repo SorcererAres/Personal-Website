@@ -7,6 +7,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+- （尚无）
+
+## [1.1.0] - 2026-08-11
+
 ### Security
 - 依赖安全升级，`npm audit` 由 11 项（1 critical / 6 high）降至 0：
   - `sanitize-html` `^2.17.3` → `^2.17.6`（critical：`javascript:` URI 绕过、`xmp` raw-text 穿透；该库直接用于清洗 `messages/*` 中的 HTML）
@@ -60,5 +65,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 > （[JCodesMore/ai-website-cloner-template](https://github.com/JCodesMore/ai-website-cloner-template)），
 > 其变更历史不在本仓库范围内。
 
-[Unreleased]: https://github.com/SorcererAres/Personal-Website/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/SorcererAres/Personal-Website/compare/v1.1.0...HEAD
+[1.1.0]: https://github.com/SorcererAres/Personal-Website/compare/v1.0.0...v1.1.0
 [1.0.0]: https://github.com/SorcererAres/Personal-Website/releases/tag/v1.0.0
