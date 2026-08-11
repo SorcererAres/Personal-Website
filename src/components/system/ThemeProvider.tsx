@@ -86,6 +86,15 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     let cancelled = false;
 
+    /**
+     * 关闭浏览器默认的滚动恢复并回到顶部：整页刷新会重播 cover 首屏，
+     * 若停在中部会看到遮罩在半途闪过。必须在首帧同步执行，早于浏览器恢复时机。
+     */
+    if ("scrollRestoration" in history) {
+      history.scrollRestoration = "manual";
+    }
+    window.scrollTo(0, 0);
+
     const prefersDark =
       typeof window !== "undefined" &&
       window.matchMedia?.("(prefers-color-scheme: dark)").matches;
@@ -126,6 +135,9 @@ export function ThemeProvider({ children }: { children: React.ReactNode }) {
       window.clearTimeout(localeCoverTimerRef.current);
       localeCoverTimerRef.current = null;
     }
+
+    // 软切换语言同样重播 cover，不依赖 Link 的默认滚动行为，显式回到顶部
+    window.scrollTo(0, 0);
 
     queueMicrotask(() => {
       setState((s) => ({ ...s, coverVisible: true }));
